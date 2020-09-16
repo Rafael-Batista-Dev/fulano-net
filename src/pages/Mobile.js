@@ -1,9 +1,9 @@
 import React from "react";
 
-export default function Move() {
+export default function Mobile() {
   return (
     <div>
-      <h2>Move</h2>
+      <h2>Mobile</h2>
     </div>
   );
 }
