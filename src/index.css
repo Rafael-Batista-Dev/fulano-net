@@ -192,7 +192,6 @@ body {
 }
 .new_footer_area .footer_bottom {
   padding-top: 5px;
-  padding-bottom: 50px;
 }
 .footer_bottom {
   font-size: 14px;
@@ -320,6 +319,7 @@ h3,
 h4,
 h5,
 h6 {
+  margin-top: 2rem;
   color: #083d93;
 }
 .new_footer_top .f_widget.about-widget .f_list li a {
