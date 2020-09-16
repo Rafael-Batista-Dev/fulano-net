@@ -1,7 +1,7 @@
 import React from "react";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 
-import Index from "./pages/Index";
+import Index from "./pages";
 import Internet from "./pages/Internet";
 import Tv from "./pages/Tv";
 import Mobile from "./pages/Mobile";
