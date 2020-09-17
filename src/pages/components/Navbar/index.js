@@ -34,7 +34,7 @@ const Navbar = () => {
           </form>
 
           <div className="navbar-nav ml-auto">
-            <a href="/" className="nav-item nav-link active">
+            <a href="/" className="nav-item nav-link">
               <i className="fa fa-home"></i>
               <span>Sobre</span>
             </a>
@@ -74,17 +74,17 @@ const Navbar = () => {
               </a>
               <div className="dropdown-menu">
                 <a href="/" className="dropdown-item">
-                  <i className="fa fa-user-o"></i> Profile
+                  <i className="fa fa-user-o"></i> Perfil
                 </a>
                 <a href="/" className="dropdown-item">
-                  <i className="fa fa-calendar-o"></i> Calendar
+                  <i className="fa fa-bullhorn"></i> Informações
                 </a>
                 <a href="/" className="dropdown-item">
-                  <i className="fa fa-sliders"></i> Settings
+                  <i className="fa fa-sliders"></i> Configurações
                 </a>
                 <div className="divider dropdown-divider"></div>
                 <a href="/" className="dropdown-item">
-                  <i className="material-icons">&#xE8AC;</i> Logout
+                  <i className="material-icons">&#xE8AC;</i> Sair
                 </a>
               </div>
             </div>
