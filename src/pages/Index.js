@@ -1,5 +1,7 @@
 import React, { Component } from "react";
 
+import Plans from "./components/Plans";
+
 export default class Index extends Component {
   render() {
     return (
@@ -11,6 +13,9 @@ export default class Index extends Component {
           consequatur voluptatum dolorum omnis dolore eligendi modi quae ullam
           error. Cumque, similique alias?
         </p>
+
+        <br />
+        <Plans />
       </div>
     );
   }

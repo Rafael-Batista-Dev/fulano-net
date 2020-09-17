@@ -61,7 +61,7 @@ const Footer = () => {
                       <a href="/">EMPRESAS</a>
                     </li>
                     <li>
-                      <a href="/">INDIQUE UM &amp; AMIGO</a>
+                      <a href="/">INDIQUE UM AMIGO</a>
                     </li>
                     <li>
                       <a href="/">TRABALHE CONOSCO</a>
