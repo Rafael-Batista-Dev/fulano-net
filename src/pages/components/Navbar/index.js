@@ -41,27 +41,23 @@ const Navbar = () => {
           <div className="navbar-nav ml-auto">
             <a href="/" className="nav-item nav-link">
               <i className="fa fa-home"></i>
-              <span>Sobre</span>
+              <span>Início</span>
             </a>
             <a href="/" className="nav-item nav-link">
-              <i className="fa fa-users"></i>
+              <i className="fa fa-wifi"></i>
               <span>Internet</span>
             </a>
             <a href="/" className="nav-item nav-link">
-              <i className="fa fa-pie-chart"></i>
+              <i className="fa fa-tablet"></i>
               <span>Móvel</span>
             </a>
             <a href="/" className="nav-item nav-link">
-              <i className="fa fa-bell"></i>
+              <i className="fa fa-television"></i>
               <span>TV</span>
             </a>
             <a href="/" className="nav-item nav-link">
-              <i className="fa fa-briefcase"></i>
+              <i className="fa fa-handshake-o "></i>
               <span>Indicar Amigo</span>
-            </a>
-            <a href="/" className="nav-item nav-link">
-              <i className="fa fa-gears"></i>
-              <span>BrisaCliente</span>
             </a>
 
             <div className="nav-item dropdown">
