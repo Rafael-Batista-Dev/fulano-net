@@ -1,11 +1,16 @@
 import React from "react";
+import Logo from "../../../assets/logo.svg";
 
 const Navbar = () => {
   return (
     <>
       <nav className="navbar navbar-expand-xl navbar-dark bg-dark fixed-top">
         <a href="/" className="navbar-brand">
-          <i className="fa fa-internet"></i>Brisa<b>Net</b>
+          <img
+            style={{ width: "160px", height: "60px" }}
+            src={Logo}
+            alt="Brisanet"
+          />
         </a>
         <button
           type="button"
