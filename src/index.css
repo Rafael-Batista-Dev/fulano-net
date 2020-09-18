@@ -257,6 +257,7 @@ button:focus {
   width: 44px;
   height: 44px;
   line-height: 43px;
+  margin-left: 25px;
   background: transparent;
   border: 1px solid #e2e2eb;
   font-size: 24px;
@@ -308,7 +309,7 @@ button:focus {
   color: white;
 }
 .new_footer_top .f_social_icon a + a {
-  margin-left: 4px;
+  margin-left: 10px;
 }
 .new_footer_top .f-title {
   margin-bottom: 30px;
