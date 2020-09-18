@@ -1,5 +1,6 @@
 import React from "react";
 import Logo from "../../../assets/logo.svg";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
@@ -39,54 +40,54 @@ const Navbar = () => {
           </form>
 
           <div className="navbar-nav ml-auto">
-            <a href="/" className="nav-item nav-link">
+            <Link to="/" className="nav-item nav-link">
               <i className="fa fa-home"></i>
               <span>Início</span>
-            </a>
-            <a href="/" className="nav-item nav-link">
+            </Link>
+            <Link to="/internet" className="nav-item nav-link">
               <i className="fa fa-wifi"></i>
               <span>Internet</span>
-            </a>
-            <a href="/" className="nav-item nav-link">
+            </Link>
+            <Link to="/movel" className="nav-item nav-link">
               <i className="fa fa-tablet"></i>
               <span>Móvel</span>
-            </a>
-            <a href="/" className="nav-item nav-link">
+            </Link>
+            <Link to="/tv" className="nav-item nav-link">
               <i className="fa fa-television"></i>
               <span>TV</span>
-            </a>
-            <a href="/" className="nav-item nav-link">
+            </Link>
+            <Link to="/indicar-amigo" className="nav-item nav-link">
               <i className="fa fa-handshake-o "></i>
               <span>Indicar Amigo</span>
-            </a>
+            </Link>
 
             <div className="nav-item dropdown">
-              <a
-                href="/"
+              <Link
+                to="/"
                 data-toggle="dropdown"
                 className="nav-item nav-link dropdown-toggle user-action"
               >
                 <img
-                  src="https://www.tutorialrepublic.com/examples/images/avatar/3.jpg"
+                  src="https://banner2.cleanpng.com/20180410/bbw/kisspng-avatar-user-medicine-surgery-patient-avatar-5acc9f7a7cb983.0104600115233596105109.jpg"
                   className="avatar"
                   alt="Avatar"
                 />{" "}
-                Rafael .B <b className="caret"></b>
-              </a>
+                Usuário <b className="caret"></b>
+              </Link>
               <div className="dropdown-menu">
-                <a href="/" className="dropdown-item">
+                <Link to="/" className="dropdown-item">
                   <i className="fa fa-user-o"></i> Perfil
-                </a>
-                <a href="/" className="dropdown-item">
+                </Link>
+                <Link to="/" className="dropdown-item">
                   <i className="fa fa-bullhorn"></i> Informações
-                </a>
-                <a href="/" className="dropdown-item">
+                </Link>
+                <Link to="/" className="dropdown-item">
                   <i className="fa fa-sliders"></i> Configurações
-                </a>
+                </Link>
                 <div className="divider dropdown-divider"></div>
-                <a href="/" className="dropdown-item">
-                  <i className="material-icons">&#xE8AC;</i> Sair
-                </a>
+                <Link to="/login" className="dropdown-item">
+                  <i className="material-icons">&#xE8AC;</i> Entrar
+                </Link>
               </div>
             </div>
           </div>

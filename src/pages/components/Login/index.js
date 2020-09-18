@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Login = () => {
   return (
@@ -86,9 +87,9 @@ const Login = () => {
                       Memorizar
                     </label>
                   </div>
-                  <a href="/" className="ml-auto mb-0 text-sm">
+                  <Link to="/" className="ml-auto mb-0 text-sm">
                     Recuperar senha
-                  </a>
+                  </Link>
                 </div>
                 <div className="row mb-3 px-3">
                   {" "}
