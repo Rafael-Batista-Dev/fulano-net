@@ -10,6 +10,7 @@ import Mobile from "./pages/Mobile";
 import MyFriend from "./pages/MyFriend";
 import Subscribe from "./pages/Subscribe";
 import Customers from "./pages/Customers";
+import LoginPage from "./pages/LoginPage";
 
 export default class Routers extends Component {
   render() {
@@ -23,6 +24,7 @@ export default class Routers extends Component {
         <Route path="/indicar-amigo" component={MyFriend} />
         <Route path="/inscreva-se" component={Subscribe} />
         <Route path="/clientes" component={Customers} />
+        <Route path="/login" component={LoginPage} />
         <Footer />
       </BrowserRouter>
     );
