@@ -543,7 +543,7 @@ h6 {
 
 .card0 {
   box-shadow: 0px 4px 8px 0px #757575;
-  border-radius: 0px;
+  border-radius: 10px;
 }
 
 .card2 {
@@ -553,8 +553,8 @@ h6 {
 .logo {
   width: 200px;
   height: 100px;
-  margin-top: 20px;
-  margin-left: 35px;
+  margin-top: 50px;
+  margin-left: 70px;
 }
 
 .image {
@@ -569,21 +569,19 @@ h6 {
 .facebook {
   background-color: #3b5998;
   color: #fff;
-  font-size: 18px;
   padding-top: 5px;
-  border-radius: 50%;
-  width: 35px;
+  border-radius: 4px;
+  width: 122px;
   height: 35px;
   cursor: pointer;
 }
 
-.twitter {
-  background-color: #1da1f2;
+.gmail {
+  background-color: #e94b4b;
   color: #fff;
-  font-size: 18px;
   padding-top: 5px;
-  border-radius: 50%;
-  width: 35px;
+  border-radius: 4px;
+  width: 122px;
   height: 35px;
   cursor: pointer;
 }
@@ -591,10 +589,9 @@ h6 {
 .linkedin {
   background-color: #2867b2;
   color: #fff;
-  font-size: 18px;
   padding-top: 5px;
-  border-radius: 50%;
-  width: 35px;
+  border-radius: 4px;
+  width: 122px;
   height: 35px;
   cursor: pointer;
 }

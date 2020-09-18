@@ -6,7 +6,7 @@ const Login = () => {
     <>
       <div
         className="container-fluid px-1 px-md-5 px-lg-1 px-xl-5 py-5 mx-auto"
-        style={{ marginTop: "3rem", width: "70%" }}
+        style={{ marginTop: "3rem", width: "80%" }}
       >
         <div className="card card0 border-0">
           <div className="row d-flex">
@@ -16,13 +16,13 @@ const Login = () => {
                   <img
                     src="https://www.brisanet.com.br/imgs/logo.svg"
                     className="logo"
-                    alt="logo"
+                    alt="Brisanet"
                   />
                 </div>
                 <div className="row row px-3 justify-content-center mt-4 mb-5 border-line">
                   {" "}
                   <img
-                    style={{ marginTop: "4rem" }}
+                    style={{ marginTop: "2rem" }}
                     src="https://i.imgur.com/uNGdWHi.png"
                     className="image"
                     alt="image"
@@ -37,18 +37,18 @@ const Login = () => {
                   <h5 className="mb-0 mr-4 mt-2">Entrar com</h5>
                 </center>
                 <br />
-                <div className="row mb-4 px-3">
-                  <div className="facebook text-center mr-3">
-                    <div className="fa fa-facebook"></div>
+                <div className="row mb-3 ">
+                  <div className="facebook text-center mr-1">
+                    <div className="fa fa-facebook"> Facebook</div>
                   </div>
-                  <div className="twitter text-center mr-3">
-                    <div className="fa fa-twitter"></div>
+                  <div className="gmail text-center mr-1">
+                    <div className="fa fa-google"> Gmail</div>
                   </div>
-                  <div className="linkedin text-center mr-3">
-                    <div className="fa fa-linkedin"></div>
+                  <div className="linkedin text-center mr-1">
+                    <div className="fa fa-linkedin"> Linkedin</div>
                   </div>
                 </div>
-                <div className="row px-3 mb-4">
+                <div className="row px-3 mb-2">
                   <div className="line"></div>{" "}
                   <small className="or text-center">OU</small>
                   <div className="line"></div>
@@ -58,7 +58,7 @@ const Login = () => {
                     <h6 className="mb-0 text-sm">Seu Email</h6>
                   </label>
                   <input
-                    className="mb-4"
+                    className="mb-1"
                     type="text"
                     name="email"
                     placeholder="Informe seu endereço de email"
@@ -69,13 +69,13 @@ const Login = () => {
                     <h6 className="mb-0 text-sm">Senha</h6>
                   </label>
                   <input
-                    className="mb-4"
+                    className="mb-2"
                     type="password"
                     name="email"
                     placeholder="Informe sua senha"
                   ></input>
                 </div>
-                <div className="row px-3 mb-4">
+                <div className="row px-3 mb-2">
                   <div className="custom-control custom-checkbox custom-control-inline">
                     <input
                       id="chk1"
