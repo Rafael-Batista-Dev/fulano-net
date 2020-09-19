@@ -5,24 +5,27 @@ body {
 }
 
 h1,
-h2::after {
-  content: "";
-  left: 0;
+h2,
+h3::before {
   width: 60%;
-  height: 80px;
-  margin-top: 2rem;
+  height: 60px;
+  margin-top: 6rem;
+  margin-bottom: 4rem;
   color: #fff;
   background: #f56e28;
-  padding: 20px;
+  padding: 8px;
   box-shadow: 0px 0px 1em #999999;
   -webkit-box-shadow: 0px 0px 1em #999999;
   -moz-box-shadow: 0px 0px 1em #999999;
 }
 
-h3,
+h2 {
+  font-size: 34px;
+  padding: 15px;
+}
+
 h4,
-h5,
-h6 ::after {
+h5 {
   margin-top: 2rem;
   color: #083d93;
 }

@@ -13,17 +13,12 @@ const Meet = () => {
   return (
     <div
       className="content"
-      style={{ background: "#FFF", marginTop: "-1.5rem" }}
+      style={{ background: "#EBeBEB", marginTop: "-1.5rem" }}
     >
       <div className="container">
         <div className="row">
           <div className="col-lg-12">
-            <h1
-              style={{ marginTop: "4rem", marginBottom: "4rem" }}
-              data-aos="fade-down"
-            >
-              Conecte-se em qual quer lugar
-            </h1>
+            <h1 data-aos="fade-down">Conecte-se com todos</h1>
           </div>
           <div className="col-lg-6 col-md-6" data-aos="fade-right">
             <div style={{ marginBottom: "4rem" }}>

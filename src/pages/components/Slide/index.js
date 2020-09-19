@@ -25,9 +25,9 @@ const images = [
 
 const Slide = () => {
   return (
-    <>
+    <div style={{ marginTop: "5rem" }}>
       <ImageGallery items={images} autoPlay={true} showThumbnails={false} />;
-    </>
+    </div>
   );
 };
 

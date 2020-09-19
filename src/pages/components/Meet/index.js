@@ -18,9 +18,29 @@ const Meet = () => {
       <div className="container">
         <div className="row">
           <div className="col-lg-12">
-            <h1 style={{ marginTop: "4rem" }}>Index</h1>
+            <h2>Trabalho em equipe</h2>
           </div>
           <div className="col-lg-6 col-md-6" data-aos="fade-right">
+            <p>
+              Quando sua equipe precisar se comunicar, use a estrutura da
+              brisanet para fazer videoconferências confiáveis de forma simples,
+              travamento e delay. Você pode fazer reuniões a qual quer momento
+              em qual quer lugar gravar.
+            </p>
+            <p>
+              Quando sua equipe precisar se comunicar, use a estrutura da
+              brisanet para fazer videoconferências confiáveis de forma simples,
+              travamento e delay. Você pode fazer reuniões a qual quer momento
+              em qual quer lugar gravar.
+            </p>
+            <p>
+              Quando sua equipe precisar se comunicar, use a estrutura da
+              brisanet para fazer videoconferências confiáveis de forma simples,
+              travamento e delay. Você pode fazer reuniões a qual quer momento
+              em qual quer lugar gravar.
+            </p>
+          </div>
+          <div className="col-lg-6 col-md-6" data-aos="fade-left">
             <div style={{ marginBottom: "4rem" }}>
               <Lottie
                 width={400}
@@ -35,14 +55,6 @@ const Meet = () => {
                 }}
               ></Lottie>
             </div>
-          </div>
-          <div className="col-lg-6 col-md-6" data-aos="fade-left">
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero
-              accusantium ratione distinctio molestiae hic quos non voluptas,
-              consequatur voluptatum dolorum omnis dolore eligendi modi quae
-              ullam error. Cumque, similique alias?
-            </p>
           </div>
         </div>
       </div>
