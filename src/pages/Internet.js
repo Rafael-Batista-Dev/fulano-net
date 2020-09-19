@@ -1,29 +1,21 @@
 import React from "react";
+import Plans from "./components/Plans";
+import bannerInternet from "../assets/banner-internet.jpg";
 
 export default function Internet() {
   return (
     <>
+      <div className="content">
+        <div style={{ marginTop: "5rem" }}>
+          <img style={{ width: "100%" }} src={bannerInternet} alt="mobile" />
+        </div>
+      </div>
       <div className="container">
         <div className="row">
           <div className="col-lg-12">
-            <h1>Internet</h1>
+            <h1>Melhores opções de planos</h1>
           </div>
-          <div className="col-lg-6 col-md-6">
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero
-              accusantium ratione distinctio molestiae hic quos non voluptas,
-              consequatur voluptatum dolorum omnis dolore eligendi modi quae
-              ullam error. Cumque, similique alias?
-            </p>
-          </div>
-          <div className="col-lg-6 col-md-6">
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero
-              accusantium ratione distinctio molestiae hic quos non voluptas,
-              consequatur voluptatum dolorum omnis dolore eligendi modi quae
-              ullam error. Cumque, similique alias?
-            </p>
-          </div>
+          <Plans />
         </div>
       </div>
     </>
