@@ -6,7 +6,7 @@ import animationData from "../../../assets/social.json";
 import Aos from "aos";
 import "aos/dist/aos.css";
 
-const Meet = () => {
+const Social = () => {
   useEffect(() => {
     Aos.init({ duration: 2000 });
   }, []);
@@ -71,4 +71,4 @@ const Meet = () => {
   );
 };
 
-export default Meet;
+export default Social;
