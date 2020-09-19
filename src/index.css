@@ -17,6 +17,17 @@ h6 {
 p {
   text-align: justify;
 }
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+  -webkit-border-radius: 8px;
+  border-radius: 8px;
+  background: #f56e28;
+}
+
 .navbar {
   color: #fff;
   background: #f56e28 !important;
