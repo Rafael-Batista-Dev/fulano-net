@@ -315,6 +315,9 @@ button:focus {
 .btn_get_two:hover {
   background: transparent;
   color: #f56e28;
+  box-shadow: 0px 0px 1em #999999;
+  -webkit-box-shadow: 0px 0px 1em #999999;
+  -moz-box-shadow: 0px 0px 1em #999999;
 }
 
 .new_footer_top .f_social_icon a:hover {
@@ -411,13 +414,18 @@ button:focus {
   border-left: 1px solid #eee;
   border-right: 1px solid #eee;
   margin: 30px 0px;
-  border-radius: 8px;
+  border-radius: 12px;
   position: relative;
 }
 .plan-header {
   color: #fff;
   position: relative;
+  margin-top: -2rem;
   margin-bottom: 20px;
+  border-radius: 12px;
+  box-shadow: 0px 0px 1em #999999;
+  -webkit-box-shadow: 0px 0px 1em #999999;
+  -moz-box-shadow: 0px 0px 1em #999999;
 }
 .price {
   font-size: 50px;
@@ -449,6 +457,10 @@ button:focus {
   margin: 0 auto;
   position: relative;
   bottom: -20px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 1em #999999;
+  -webkit-box-shadow: 0px 0px 1em #999999;
+  -moz-box-shadow: 0px 0px 1em #999999;
 }
 .services-list {
   padding: 10px 20px;
