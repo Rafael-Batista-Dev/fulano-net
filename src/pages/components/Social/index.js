@@ -18,7 +18,10 @@ const Meet = () => {
       <div className="container">
         <div className="row">
           <div className="col-lg-12">
-            <h1 style={{ marginTop: "4rem", marginBottom: "4rem" }}>
+            <h1
+              style={{ marginTop: "4rem", marginBottom: "4rem" }}
+              data-aos="fade-down"
+            >
               Conecte-se em qual quer lugar
             </h1>
           </div>
@@ -60,8 +63,11 @@ const Meet = () => {
               incorporar, inovar e acompanhar as tendências tecnológicas.
             </p>
 
-            <button className="btn btn_get btn_get_two float-right">
-              Saiba mais <i class="fa fa-arrow-right"></i>
+            <button
+              className="btn btn_get btn_get_two float-right"
+              data-aos="fade-right"
+            >
+              Saiba mais <i className="fa fa-arrow-right"></i>
             </button>
           </div>
         </div>
