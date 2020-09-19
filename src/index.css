@@ -3,6 +3,20 @@ body {
   font-family: "Varela Round", sans-serif;
   color: #083d93;
 }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 2rem;
+  color: #083d93;
+}
+
+p {
+  text-align: justify;
+}
 .navbar {
   color: #fff;
   background: #f56e28 !important;
@@ -321,15 +335,7 @@ button:focus {
 .f_size_18 {
   font-size: 18px;
 }
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  margin-top: 2rem;
-  color: #083d93;
-}
+
 .new_footer_top .f_widget.about-widget .f_list li a {
   color: #083d93;
 }
