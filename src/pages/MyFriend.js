@@ -18,7 +18,7 @@ export default function MyFriend() {
             <h1 data-aos="fade-down">Você indica, a gente liga</h1>
           </div>
           <div className="col-lg-6 col-md-6" data-aos="fade-right">
-            <div style={{ marginBottom: "4rem" }}>
+            <div style={{ marginTop: "2rem", marginBottom: "4rem" }}>
               <Lottie
                 width={400}
                 height={400}
@@ -33,10 +33,11 @@ export default function MyFriend() {
               ></Lottie>
             </div>
           </div>
-          <div className="col-lg-6 col-md-6" data-aos="fade-left">
+          <div className="col-lg-6 col-md-6 myfriend" data-aos="fade-left">
+              <div  style={{  marginTop: "2rem"}}>
             <div className="row px-3">
               <label className="mb-1">
-                <h6 className="mb-0 text-sm">Seu Nome</h6>
+                <h6 className="mt-2 text-sm">Seu Nome</h6>
               </label>
               <input
                 className="mb-1"
@@ -45,46 +46,47 @@ export default function MyFriend() {
                 placeholder="Informe seu nome"
               ></input>
             </div>
-            <div className="row px-3">
+                        <div className="row px-3">
               <label className="mb-1">
-                <h6 className="mb-0 text-sm">CPF</h6>
+                <h6 className="mt-2 text-sm">CPF</h6>
               </label>
               <input
-                className="mb-2"
+                className="mb-1"
                 type="text"
                 name="cpf"
                 placeholder="Informe seu CPF"
               ></input>
-              <div className="row px-3">
-                <label className="mb-1">
-                  <h6 className="mb-0 text-sm">Telefone</h6>
-                </label>
-                <input
-                  className="mb-2"
-                  type="text"
-                  name="telefone"
-                  placeholder="Informe seu telefone"
-                ></input>
-              </div>
-              <div className="row px-3">
-                <label className="mb-1">
-                  <h6 className="mb-0 text-sm">Cidade</h6>
-                </label>
-                <input
-                  className="mb-2"
-                  type="text"
-                  name="cidade"
-                  placeholder="Informe sua cidade"
-                ></input>
-              </div>
-              <div className="row mb-3 px-3">
-                {" "}
+            </div>
+                        <div className="row px-3">
+              <label className="mb-1">
+                <h6 className="mt-2 text-sm">Telefone</h6>
+              </label>
+              <input
+                className="mb-1"
+                type="text"
+                name="telefone"
+                placeholder="Informe seu nome"
+              ></input>
+            </div>
+                                    <div className="row px-3">
+              <label className="mb-1">
+                <h6 className="mt-2 text-sm">Email</h6>
+              </label>
+              <input
+                className="mb-1"
+                type="email"
+                name="email"
+                placeholder="Informe seu nome"
+              ></input>
+            </div>
+            <div className="row px-3">
                 <button
+                
                   type="submit"
-                  className="btn btn_get btn-lg btn-block btn_get_two"
+                  className="mt-4 btn btn_get btn-lg btn-block btn_get_two"
                 >
                   Entrar
-                </button>{" "}
+                </button>
               </div>
             </div>
           </div>
