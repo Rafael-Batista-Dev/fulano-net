@@ -507,6 +507,7 @@ button:focus {
   background: #ddd;
   margin: auto;
 }
+
 .plan a {
   display: block;
   text-decoration: none;
@@ -517,73 +518,87 @@ button:focus {
   padding: 10px 0;
   transition: 0.5s;
 }
+
 .plan a:hover {
   border-radius: 30px;
 }
+
 .netuno-plan .plan-header {
   background: #2980b9;
+}
+
+.netuno-plan .title {
+  color: #fff;
+  font-size: 26px;
+  background-image: linear-gradient(125deg, #03a9f4, #ff76a4);
+}
+.netuno-plan a {
+  color: #2980b9;
+}
+
+.netuno-plan a:hover {
+  background: #2980b9;
+  color: #fff;
 }
 
 .urano-plan .plan-header {
   background: #df7131;
 }
 
-.saturno-plan .plan-header {
-  background: #2c3e50;
-}
-.jupiter-plan .plan-header {
-  background: #c0392b;
-}
-.netuno-plan .title {
-  color: #fff;
-  font-size: 26px;
-  background-image: linear-gradient(125deg, #03a9f4, #ff76a4);
-}
 .urano-plan .title {
   color: #fff;
   font-size: 26px;
   background-image: linear-gradient(125deg, #df6e23, #a8c8f3);
 }
-.saturno-plan .title {
-  color: #fff;
-  font-size: 26px;
-  background-image: linear-gradient(125deg, #6891b9, #6f8488);
-}
-.jupiter-plan .title {
-  color: #fff;
-  font-size: 26px;
-  background-image: linear-gradient(125deg, #e74c3c, #f39c12);
-}
-.netuno-plan a {
-  color: #2980b9;
-}
 
 .urano-plan a {
   color: #2980b9;
-}
-.saturno-plan a {
-  color: #2c3e50;
-}
-.jupiter-plan a {
-  color: #c0392b;
-}
-.netuno-plan a:hover {
-  background: #2980b9;
-  color: #fff;
 }
 
 .urano-plan a:hover {
   background: #2980b9;
   color: #fff;
 }
+
+.saturno-plan .plan-header {
+  background: #2c3e50;
+}
+
+.saturno-plan .title {
+  color: #fff;
+  font-size: 26px;
+  background-image: linear-gradient(125deg, #6891b9, #6f8488);
+}
+
+.saturno-plan a {
+  color: #2c3e50;
+}
+
 .saturno-plan a:hover {
   background: #2c3e50;
   color: #fff;
 }
+
+.jupiter-plan a {
+  color: #c0392b;
+}
+
+.jupiter-plan .plan-header {
+  background: #c0392b;
+}
+
+.jupiter-plan .title {
+  color: #fff;
+  font-size: 26px;
+  background-image: linear-gradient(125deg, #e74c3c, #f39c12);
+}
+
 .jupiter-plan a:hover {
   background: #c0392b;
   color: #fff;
 }
+
+
 
 /************* Login **************/
 
