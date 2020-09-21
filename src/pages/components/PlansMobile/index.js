@@ -15,24 +15,23 @@ const Plans = () => {
         <div className="container">
           <div className="row">
             <div className="col-md-4 plan" data-aos="fade-up">
-              <div className="netuno-plan">
+              <div className="mobile-plan">
                 <div className="plan-header">
                   <div className="storage">
                     <span>
-                      <i>50</i>{" "}
+                      <i>1</i>{" "}
                     </span>{" "}
-                    Mega
+                    GIGA
                   </div>
-                  <h3 className="title">Netuno</h3>
+                  <h3 className="title">+ 1 GB POR 7 DIAS</h3>
                 </div>
                 <ul className="services-list">
-                  <li>Fibra Óptica</li>
-                  <li>Download 50 Mbps</li>
-                  <li>Upload 10 Mbps</li>
-                  <li>Wi-Fi de Alta Perfomance</li>
+                  <li>WhatsApp ilimitado</li>
+                  <li>Ligações ilimitadas</li>
+                  <li>SMS ilimitado</li>
                   <div>
                     <div className="price">
-                      <span>R$</span>73,00
+                      <span>R$</span>6,99
                     </div>
                   </div>
                 </ul>
@@ -43,24 +42,23 @@ const Plans = () => {
             </div>
 
             <div className="col-md-4 plan" data-aos="fade-up">
-              <div className="saturno-plan">
+              <div className="mobile-plan">
                 <div className="plan-header">
                   <div className="storage">
                     <span>
-                      <i>200</i>{" "}
+                      <i>2</i>{" "}
                     </span>{" "}
-                    Mega
+                    GIGA
                   </div>
-                  <h3 className="title">Saturno</h3>
+                  <h3 className="title">+ 2 GB POR 7 DIAS</h3>
                 </div>
                 <ul className="services-list">
-                  <li>Fibra Óptica</li>
-                  <li>Download 200 Mbps</li>
-                  <li>Upload 40 Mbps</li>
-                  <li>Wi-Fi de Alta Perfomance</li>
+                  <li>WhatsApp ilimitado</li>
+                  <li>Ligações ilimitadas</li>
+                  <li>SMS ilimitado</li>
                   <div>
                     <div className="price">
-                      <span>R$</span>99,00
+                      <span>R$</span>15,99
                     </div>
                   </div>
                 </ul>
@@ -71,24 +69,76 @@ const Plans = () => {
             </div>
 
             <div className="col-md-4 plan" data-aos="fade-down">
-              <div className="jupiter-plan">
+              <div className="mobile-plan">
                 <div className="plan-header">
                   <div className="storage">
                     <span>
-                      <i>1</i>{" "}
+                      <i>2</i>{" "}
+                    </span>{" "}
+                    GIGA
+                  </div>
+                  <h3 className="title">+ 3 GB POR 15 DIAS</h3>
+                </div>
+                <ul className="services-list">
+                  <li>WhatsApp ilimitado</li>
+                  <li>Ligações ilimitadas</li>
+                  <li>SMS ilimitado</li>
+                  <div>
+                    <div className="price">
+                      <span>R$</span>29,99
+                    </div>
+                  </div>
+                </ul>
+                <button className="btn btn_get btn-lg btn-block btn_get_two">
+                  Assinar!
+                </button>
+              </div>
+            </div>
+
+            <div className="col-md-4 plan" data-aos="fade-down">
+              <div className="mobile-plan">
+                <div className="plan-header">
+                  <div className="storage">
+                    <span>
+                      <i>2</i>{" "}
                     </span>{" "}
                     Giga
                   </div>
-                  <h3 className="title">Júpiter</h3>
+                  <h3 className="title">+ 5 GB POR 15 DIAS</h3>
                 </div>
                 <ul className="services-list">
-                  <li>Fibra Óptica</li>
-                  <li>Download 1 GB</li>
-                  <li>Upload 200 Mbps</li>
-                  <li>Wi-Fi de Alta Perfomance</li>
+                  <li>WhatsApp ilimitado</li>
+                  <li>Ligações ilimitadas</li>
+                  <li>SMS ilimitado</li>
                   <div>
                     <div className="price">
-                      <span>R$</span>499,00
+                      <span>R$</span>59,99
+                    </div>
+                  </div>
+                </ul>
+                <button className="btn btn_get btn-lg btn-block btn_get_two">
+                  Assinar!
+                </button>
+              </div>
+            </div>
+            <div className="col-md-8 plan" data-aos="fade-down">
+              <div className="mobile-plan">
+                <div className="plan-header">
+                  <div className="storage">
+                    <span>
+                      <i>15</i>{" "}
+                    </span>{" "}
+                    Giga
+                  </div>
+                  <h3 className="title">+ 15 GB POR 15 DIAS</h3>
+                </div>
+                <ul className="services-list">
+                  <li>WhatsApp ilimitado</li>
+                  <li>Ligações ilimitadas</li>
+                  <li>SMS ilimitado</li>
+                  <div>
+                    <div className="price">
+                      <span>R$</span>99,99
                     </div>
                   </div>
                 </ul>
