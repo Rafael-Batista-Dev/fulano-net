@@ -18,7 +18,9 @@ const Meet = () => {
       <div className="container">
         <div className="row">
           <div className="col-lg-12">
-            <h2>Trabalho em equipe</h2>
+            <div className="content-title">
+              <h2>Trabalho em equipe</h2>
+            </div>
           </div>
           <div className="col-lg-6 col-md-6" data-aos="fade-right">
             <p>

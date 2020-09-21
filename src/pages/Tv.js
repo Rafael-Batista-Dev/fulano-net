@@ -8,7 +8,9 @@ export default function Tv() {
         <div className="container">
           <div className="row">
             <div className="col-lg-12">
-              <h1>Toda a emoção da TV</h1>
+              <div className="content-title">
+                <h1>Toda a emoção da TV</h1>
+              </div>
             </div>
 
             <PlansTv />

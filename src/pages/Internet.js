@@ -13,7 +13,9 @@ export default function Internet() {
       <div className="container">
         <div className="row">
           <div className="col-lg-12">
-            <h1>Melhores opções de planos</h1>
+            <div className="content-title">
+              <h1>Melhores opções de planos</h1>
+            </div>
           </div>
           <Plans />
         </div>

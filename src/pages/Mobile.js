@@ -15,7 +15,9 @@ export default function Mobile() {
         </div>
         <div className="row">
           <div className="col-lg-12">
-            <h1>Cobertura nacional para você</h1>
+            <div className="content-title">
+              <h1>Cobertura nacional para você</h1>
+            </div>
           </div>
 
           <PlansMobile />
