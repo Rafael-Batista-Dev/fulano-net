@@ -26,7 +26,6 @@ const Footer = () => {
                     <input
                       type="text"
                       name="EMAIL"
-                      className="form-control memail"
                       placeholder="Email"
                     />
                     <button className="btn btn_get btn-block btn_get_two">
@@ -149,7 +148,7 @@ const Footer = () => {
                 </p>
               </div>
               <div className="col-lg-6 col-sm-5 text-right">
-                <p>Feito por: Rafael .B</p>
+                
               </div>
             </div>
           </div>
