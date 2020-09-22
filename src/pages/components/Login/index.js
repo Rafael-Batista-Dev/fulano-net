@@ -1,4 +1,5 @@
 import React from "react";
+import Logo from "../../../assets/logo.svg";
 import { Link } from "react-router-dom";
 
 const Login = () => {
@@ -6,35 +7,19 @@ const Login = () => {
     <>
       <div
         className="container-fluid px-1 px-md-5 px-lg-1 px-xl-5 py-5 mx-auto"
-        style={{ marginTop: "3rem", width: "80%" }}
+        style={{ marginTop: "3rem", width: "30%" }}
       >
         <div className="card card0 border-0">
           <div className="row d-flex">
-            <div className="col-lg-6">
-              <div className="card1 pb-5">
-                <div className="row">
-                  <img
-                    src="https://www.brisanet.com.br/imgs/logo.svg"
+
+            <div className="col-lg-12">
+              <div className="card2 card border-0 px-4 py-5">
+                <center>
+                    <img
+                    src={Logo}
                     className="logo"
                     alt="Brisanet"
                   />
-                </div>
-                <div className="row row px-3 justify-content-center mt-4 mb-5 border-line">
-                  {" "}
-                  <img
-                    style={{ marginTop: "2rem" }}
-                    src="https://i.imgur.com/uNGdWHi.png"
-                    className="image"
-                    alt="image"
-                  />
-                </div>
-              </div>
-            </div>
-
-            <div className="col-lg-6">
-              <div className="card2 card border-0 px-4 py-5">
-                <center>
-                  <h5 className="mb-0 mr-4 mt-2">Entrar com</h5>
                 </center>
                 <br />
                 <div className="row mb-3 ">
@@ -54,18 +39,18 @@ const Login = () => {
                   <div className="line"></div>
                 </div>
                 <div className="row px-3">
-                  <label className="mb-1">
+                  <label className="mb-2">
                     <h6 className="mb-0 text-sm">Seu Email</h6>
                   </label>
                   <input
-                    className="mb-1"
+                    className="mb-2"
                     type="text"
                     name="email"
                     placeholder="Informe seu endereço de email"
                   ></input>
                 </div>
                 <div className="row px-3">
-                  <label className="mb-1">
+                  <label className="mb-2">
                     <h6 className="mb-0 text-sm">Senha</h6>
                   </label>
                   <input
