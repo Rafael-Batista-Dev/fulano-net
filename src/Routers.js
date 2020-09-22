@@ -4,6 +4,7 @@ import { BrowserRouter, Route } from "react-router-dom";
 import Index from "./pages";
 import Navbar from "./pages/components/Navbar";
 import Footer from "./pages/components/Footer";
+import Contact from "./pages/components/Contact";
 import Internet from "./pages/Internet";
 import Tv from "./pages/Tv";
 import Mobile from "./pages/Mobile";
@@ -25,6 +26,7 @@ export default class Routers extends Component {
         <Route path="/inscreva-se" component={Subscribe} />
         <Route path="/clientes" component={Customers} />
         <Route path="/login" component={LoginPage} />
+        <Contact />
         <Footer />
       </BrowserRouter>
     );
