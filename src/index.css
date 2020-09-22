@@ -37,7 +37,7 @@ p {
 }
 
 .navbar {
-  color: rgb(56, 56, 56);
+  color: #083d93;
   background: #ffffff !important;
   padding: 5px 16px;
   border-radius: 0;
@@ -46,20 +46,27 @@ p {
   -webkit-box-shadow: 0px 0px 0.2em rgb(153, 151, 151);
   -moz-box-shadow: 0px 0px 0.2em rgb(153, 151, 151);
 }
+
+.navbar .img-logo {
+  width: 160px;
+  height: 60px;
+  margin-right: 10px;
+}
+
 .navbar img {
   width: 36px;
   height: 36px;
   margin-right: 10px;
 }
 .navbar .navbar-brand {
-  color: #575654;
+  color: #083d93;
   padding-left: 0;
   padding-right: 50px;
   font-size: 24px;
 }
 .navbar .navbar-brand:hover,
 .navbar .navbar-brand:focus {
-  color: #575654;
+  color: #083d93;
 }
 .navbar .navbar-brand i {
   font-size: 25px;
@@ -67,7 +74,19 @@ p {
 }
 
 .navbar-dark .navbar-nav .nav-link {
-  color: #575654;
+  color: #083d93;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: #f56e28;
+}
+
+.navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover {
+    color: #f56e28;
+}
+
+.navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show>.nav-link {
+    color: #f56e28;
 }
 .search-box {
   position: relative;
@@ -76,7 +95,7 @@ p {
   padding-right: 35px;
   min-height: 38px;
   border: none;
-  background: #faf7fd;
+  background: #ecebee;
   border-radius: 3px !important;
 }
 .search-box input:focus {
@@ -116,7 +135,7 @@ p {
 }
 .navbar .navbar-nav > a:hover,
 .navbar .navbar-nav > a:focus {
-  color: #fff;
+  color: #f56e28;
   text-shadow: 0 0 4px rgba(255, 255, 255, 0.3);
 }
 .navbar .navbar-nav > a > i {
@@ -127,6 +146,11 @@ p {
   font-size: 16px;
   min-width: 22px;
 }
+
+.navbar .dropdown-item .sub-link:hover {
+  color: #f56e28;
+}
+
 .navbar .dropdown-item .material-icons {
   font-size: 21px;
   line-height: 16px;
@@ -136,8 +160,8 @@ p {
 .navbar .nav-item.open > a,
 .navbar .nav-item.open > a:hover,
 .navbar .nav-item.open > a:focus {
-  color: #fff;
-  background: none !important;
+  color: #f56e28;
+
 }
 .navbar .dropdown-menu {
   border-radius: 1px;
@@ -145,20 +169,20 @@ p {
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
 }
 .navbar .dropdown-menu a {
-  color: #777 !important;
+  color: #083d93 !important;
   padding: 8px 20px;
   line-height: normal;
   font-size: 15px;
 }
 .navbar .dropdown-menu a:hover,
 .navbar .dropdown-menu a:focus {
-  color: #333 !important;
+  color: #f56e28 !important;
   background: transparent !important;
 }
 .navbar .navbar-nav .active a,
 .navbar .navbar-nav .active a:hover,
 .navbar .navbar-nav .active a:focus {
-  color: #fff;
+  color: #f56e28;
   text-shadow: 0 0 4px rgba(255, 255, 255, 0.2);
   background: transparent !important;
 }

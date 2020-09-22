@@ -8,7 +8,7 @@ const Navbar = () => {
       <nav className="navbar navbar-expand-xl navbar-dark bg-dark fixed-top">
         <a href="/" className="navbar-brand">
           <img
-            style={{ width: "160px", height: "60px" }}
+            className="img-logo"
             src={Logo}
             alt="Brisanet"
           />
@@ -76,7 +76,7 @@ const Navbar = () => {
               </Link>
               <div className="dropdown-menu">
                 <Link to="/" className="dropdown-item">
-                  <i className="fa fa-user-o"></i> Perfil
+                  <i className="fa fa-user-o sub-link"></i> Perfil
                 </Link>
                 <Link to="/" className="dropdown-item">
                   <i className="fa fa-bullhorn"></i> Informações
