@@ -19,8 +19,8 @@ export default function MyFriend() {
               <h1 data-aos="fade-down">Você indica, a gente liga</h1>
             </div>
           </div>
-          <div className="col-lg-6 col-md-6" data-aos="fade-right">
-            <div style={{ marginTop: "2rem", marginBottom: "4rem" }}>
+          <div className="col-lg-6" data-aos="fade-right">
+            <div>
               <Lottie
                 width={400}
                 height={400}
@@ -35,10 +35,10 @@ export default function MyFriend() {
               ></Lottie>
             </div>
           </div>
-          <div className="col-lg-6 col-md-6 myfriend" data-aos="fade-left">
-            <div style={{ marginTop: "2rem" }}>
-              <div className="row px-3">
-                <label className="mb-1">
+          <div className="row">
+            <div className="col-lg-12">
+              <div className="main-div">
+                <label className="mt-2">
                   <h6 className="mt-2 text-sm">Seu Nome</h6>
                 </label>
                 <input
@@ -47,19 +47,7 @@ export default function MyFriend() {
                   name="nome"
                   placeholder="Informe seu nome"
                 ></input>
-              </div>
-              <div className="row px-3">
-                <label className="mb-1">
-                  <h6 className="mt-2 text-sm">CPF</h6>
-                </label>
-                <input
-                  className="mb-1"
-                  type="text"
-                  name="cpf"
-                  placeholder="Informe seu CPF"
-                ></input>
-              </div>
-              <div className="row px-3">
+
                 <label className="mb-1">
                   <h6 className="mt-2 text-sm">Telefone</h6>
                 </label>
@@ -69,8 +57,7 @@ export default function MyFriend() {
                   name="telefone"
                   placeholder="Informe seu nome"
                 ></input>
-              </div>
-              <div className="row px-3">
+
                 <label className="mb-1">
                   <h6 className="mt-2 text-sm">Email</h6>
                 </label>
@@ -80,8 +67,7 @@ export default function MyFriend() {
                   name="email"
                   placeholder="Informe seu nome"
                 ></input>
-              </div>
-              <div className="row px-3">
+
                 <button
                   type="submit"
                   className="mt-4 btn btn_get btn-lg btn-block btn_get_two"
