@@ -23,14 +23,11 @@ const Footer = () => {
                   <p>Fique por dentro de nossas novidades!</p>
 
                   <form className="f_subscribe_two mailchimp">
-                    <input
-                      type="text"
-                      name="EMAIL"
-                      placeholder="Email"
-                    />
+                    <input type="text" name="EMAIL" placeholder="Email" />
                     <button className="btn btn_get btn-block btn_get_two">
                       Assinar!
                     </button>
+                    <br />
 
                     <p
                       className="mchimp-errmessage"
@@ -147,9 +144,7 @@ const Footer = () => {
                   © Rafael .B Inc.. 2020 Todos os direitos reservados.
                 </p>
               </div>
-              <div className="col-lg-6 col-sm-5 text-right">
-                
-              </div>
+              <div className="col-lg-6 col-sm-5 text-right"></div>
             </div>
           </div>
         </div>
