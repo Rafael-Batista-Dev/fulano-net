@@ -794,7 +794,7 @@ a {
   background: #fff;
   padding: 10px;
   right: 20px;
-  bottom: -315px;
+  bottom: -400px;
   transition: all 0.8s cubic-bezier(0.22, 0.67, 0.43, 1.22) 0.2s;
   border-radius: 10px 10px 0 0;
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12),
@@ -808,12 +808,12 @@ a {
 
 .nb-form .user-icon {
   position: absolute;
-  top: -49px;
-  right: 12px;
+  font-size: 60px;
+  top: -110px;
+  right: 20px;
   display: block;
-  width: 58px;
-  margin: 20px auto 15px;
-  border-radius: 100%;
+  margin: 20px auto 20px;
+  color: #f56e28;
 }
 
 /*-- Title --*/
@@ -821,7 +821,6 @@ a {
 .nb-form .title {
   background: #f56e28;
   font-size: 18px !important;
-
   color: #fff !important;
   border-radius: 10px 10px 0 0;
 }
@@ -910,7 +909,7 @@ a {
   }
   .nb-form {
     right: 50%;
-    bottom: -320px;
+    bottom: -400px;
     left: 50%;
     transform: translateX(-50%);
   }
