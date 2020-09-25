@@ -792,8 +792,9 @@ a {
   z-index: 9999;
   width: 300px;
   background: #fff;
+  padding: 10px;
   right: 20px;
-  bottom: -367px;
+  bottom: -315px;
   transition: all 0.8s cubic-bezier(0.22, 0.67, 0.43, 1.22) 0.2s;
   border-radius: 10px 10px 0 0;
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12),
@@ -826,10 +827,11 @@ a {
 }
 
 .title-contact {
-  margin-bottom: 3rem;
+  margin-bottom: 1rem;
   color: #fff;
   background: #f56e28;
   padding: 20px;
+  border-radius: 8px;
   box-shadow: 0px 0px 1em #999999;
   -webkit-box-shadow: 0px 0px 1em #999999;
   -moz-box-shadow: 0px 0px 1em #999999;
@@ -856,15 +858,11 @@ a {
 
 /*-- Form Elements --*/
 
-.nb-form form {
-  padding: 0 15px 15px 15px;
-}
-
 .nb-form input,
 .nb-form textarea {
   font-size: 14px;
-  width: 254px;
-  max-width: 254px;
+  width: 100%;
+  max-width: 100%;
   margin-bottom: 7px;
   padding: 6px;
   border-style: solid;

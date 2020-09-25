@@ -31,10 +31,7 @@ const Contact = () => {
                 placeholder="Mensagem:"
                 required
               ></textarea>
-              <button
-                className="btn btn_get btn-block btn_get_two"
-                style={{ width: "94%" }}
-              >
+              <button className="btn btn_get btn-block btn_get_two">
                 Enviar menssagem
               </button>
             </form>
