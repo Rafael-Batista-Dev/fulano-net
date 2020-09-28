@@ -48,9 +48,8 @@ p {
 }
 
 .navbar .img-logo {
-  width: 160px;
+  width: 60px;
   height: 60px;
-  margin-right: 10px;
 }
 
 .navbar img {
@@ -76,7 +75,7 @@ p {
 
 .navbar-dark .navbar-nav .nav-link {
   color: #fff;
-  margin-left: 20px
+  margin-left: 20px;
 }
 
 .navbar-dark .navbar-nav .nav-link:hover {
@@ -99,7 +98,7 @@ p {
   padding-right: 35px;
   min-height: 38px;
   border: none;
-  background: #ecebee;
+  background: #ffffff;
   border-radius: 3px !important;
 }
 .search-box input:focus {

@@ -1,5 +1,5 @@
 import React from "react";
-import Logo from "../../../assets/logo.svg";
+import Logo from "../../../assets/logo2.ico";
 import { Link } from "react-router-dom";
 
 const Navbar = () => {
@@ -7,11 +7,7 @@ const Navbar = () => {
     <>
       <nav className="navbar navbar-expand-xl navbar-dark bg-dark fixed-top">
         <a href="/" className="navbar-brand">
-          <img
-            className="img-logo"
-            src={Logo}
-            alt="Brisanet"
-          />
+          <img className="img-logo" src={Logo} alt="Brisanet" />
         </a>
         <button
           type="button"
@@ -58,7 +54,7 @@ const Navbar = () => {
             </Link>
             <Link to="/indicar-amigo" className="nav-item nav-link">
               <i className="fa fa-handshake-o "></i>
-              <span>Indicar Amigo</span>
+              <span>Amigo</span>
             </Link>
 
             <div className="nav-item dropdown">
