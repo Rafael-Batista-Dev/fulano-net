@@ -36,7 +36,10 @@ const Plans = () => {
                     </div>
                   </div>
                 </ul>
-                <button className="btn btn_get btn-lg btn-block btn_get_two">
+                <button
+                  className="btn btn_get btn-lg btn-block btn_get_two"
+                  style={{ marginBottom: "2rem" }}
+                >
                   Assinar!
                 </button>
               </div>
@@ -64,7 +67,10 @@ const Plans = () => {
                     </div>
                   </div>
                 </ul>
-                <button className="btn btn_get btn-lg btn-block btn_get_two">
+                <button
+                  className="btn btn_get btn-lg btn-block btn_get_two"
+                  style={{ marginBottom: "2rem" }}
+                >
                   Assinar!
                 </button>
               </div>
@@ -92,7 +98,10 @@ const Plans = () => {
                     </div>
                   </div>
                 </ul>
-                <button className="btn btn_get btn-lg btn-block btn_get_two">
+                <button
+                  className="btn btn_get btn-lg btn-block btn_get_two"
+                  style={{ marginBottom: "2rem" }}
+                >
                   Assinar!
                 </button>
               </div>
@@ -120,7 +129,10 @@ const Plans = () => {
                     </div>
                   </div>
                 </ul>
-                <button className="btn btn_get btn-lg btn-block btn_get_two">
+                <button
+                  className="btn btn_get btn-lg btn-block btn_get_two"
+                  style={{ marginBottom: "2rem" }}
+                >
                   Assinar!
                 </button>
               </div>
