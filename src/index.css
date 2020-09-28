@@ -648,8 +648,7 @@ button:focus {
   padding: 20px 40px 40px 40px;
 }
 .logo {
-  width: 200px;
-  height: 100px;
+  margin-top: 2rem;
 }
 
 .image {
