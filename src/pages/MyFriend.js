@@ -36,7 +36,7 @@ export default function MyFriend() {
             </div>
           </div>
           <div className="row">
-            <div className="col-lg-12">
+            <div className="col-lg-12" data-aos="fade-left">
               <div className="main-div">
                 <label className="mt-2">
                   <h6 className="mt-2 text-sm">Seu Nome</h6>
