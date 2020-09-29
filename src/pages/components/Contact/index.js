@@ -1,4 +1,6 @@
 import React from "react";
+import { Icon } from "react-icons-kit";
+import { ic_insert_comment } from "react-icons-kit/md/ic_insert_comment";
 
 const Contact = () => {
   return (
@@ -6,9 +8,8 @@ const Contact = () => {
       <div className="container">
         <div className="row">
           <div className="nb-form">
-            <div className="user-icon">
-              <i class="fa fa-comment"></i>
-            </div>
+            <Icon className="user-icon" icon={ic_insert_comment} size={64} />
+
             <p className="title-contact">Fale com um especialista</p>
             <form>
               <input type="text" name="cpname" placeholder="Nome:" required />
