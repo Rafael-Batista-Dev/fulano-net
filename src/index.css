@@ -6,8 +6,8 @@ body {
 
 .content-title {
   width: 60%;
-  margin-top: 6rem;
-  margin-bottom: 4rem;
+  margin-top: 8rem;
+  margin-bottom: 8rem;
   color: #fff;
   background: #f3854c;
   padding: 10px 30px 5px 10px;
@@ -912,4 +912,43 @@ a {
     left: 50%;
     transform: translateX(-50%);
   }
+}
+
+/************* Cards  *************/
+
+.card-up {
+  background: #fff;
+  position: relative;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 12px;
+  box-shadow: 0px 0px 2em #999999;
+  -webkit-box-shadow: 0px 0px 2em #999999;
+  -moz-box-shadow: 0px 0px 2em #999999;
+}
+
+.card-down {
+  background: #fff;
+  position: relative;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 12px;
+  box-shadow: 0px 0px 2em #999999;
+  -webkit-box-shadow: 0px 0px 2em #999999;
+  -moz-box-shadow: 0px 0px 2em #999999;
+}
+.content-text {
+  margin-top: 2rem;
+}
+.list ul {
+  margin-top: 2rem;
+}
+
+.list ul li {
+  list-style-type: none;
+  padding: 8px;
+}
+.checked-list {
+  color: #f3854c;
+  margin-right: 10px;
 }
