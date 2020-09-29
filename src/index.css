@@ -972,3 +972,22 @@ a {
   width: 65%;
   text-align: center;
 }
+
+/************ content-description-TV *************/
+
+.content-description-tv {
+  margin: auto;
+  text-align: center;
+}
+
+.content-description-tv hr {
+  width: 45%;
+  border: 5px solid #f3854c;
+  border-radius: 5px;
+}
+
+.content-description-tv p {
+  margin: auto;
+  width: 95%;
+  text-align: center;
+}
