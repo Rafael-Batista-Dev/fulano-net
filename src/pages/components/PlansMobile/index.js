@@ -8,143 +8,61 @@ const Plans = () => {
   }, []);
   return (
     <>
-      <div
-        className="content"
-        style={{ marginTop: "4rem", marginBottom: "4rem" }}
-      >
+      <div className="content" style={{ marginBottom: "4rem" }}>
         <div className="container">
           <div className="row">
-            <div className="col-md-4 plan" data-aos="fade-up">
-              <div className="mobile-plan">
-                <div className="plan-header">
-                  <div className="storage">
-                    <span>
-                      <i>1</i>{" "}
-                    </span>{" "}
-                    GIGA
-                  </div>
-                  <h3 className="title">+ 1 GB POR 7 DIAS</h3>
-                </div>
-                <ul className="services-list">
-                  <li>WhatsApp ilimitado</li>
-                  <li>Ligações ilimitadas</li>
-                  <li>SMS ilimitado</li>
-                  <div>
-                    <div className="price">
-                      <span>R$</span>6,99
-                    </div>
-                  </div>
-                </ul>
-                <button className="btn btn_get btn-lg btn-block btn_get_two">
-                  Assinar!
-                </button>
+            <div className="col-lg-3">
+              <div className="card-up">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Aliquam quis sapiente et, est at tenetur neque? Ducimus ea
+                  accusantium eaque illo. Nam expedita alias ratione assumenda a
+                  temporibus tenetur iste?
+                </p>
               </div>
             </div>
+            <div className="col-lg-3" style={{ marginTop: "6rem" }}>
+              <div className="card-down">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Aliquam quis sapiente et, est at tenetur neque? Ducimus ea
+                  accusantium eaque illo. Nam expedita alias ratione assumenda a
+                  temporibus tenetur iste?
+                </p>
+              </div>
+            </div>
+            <div className="col-lg-3">
+              <div className="card-up">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Aliquam quis sapiente et, est at tenetur neque? Ducimus ea
+                  accusantium eaque illo. Nam expedita alias ratione assumenda a
+                  temporibus tenetur iste?
+                </p>
+              </div>
+            </div>
+            <div className="col-lg-3" style={{ marginTop: "6rem" }}>
+              <div className="card-down">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Aliquam quis sapiente et, est at tenetur neque? Ducimus ea
+                  accusantium eaque illo. Nam expedita alias ratione assumenda a
+                  temporibus tenetur iste?
+                </p>
+              </div>
+            </div>
+            <div className="col-lg-12">
+              <div className="content-description-mobile">
+                <h3>Hello world</h3>
+                <hr />
+                <br />
 
-            <div className="col-md-4 plan" data-aos="fade-up">
-              <div className="mobile-plan">
-                <div className="plan-header">
-                  <div className="storage">
-                    <span>
-                      <i>2</i>{" "}
-                    </span>{" "}
-                    GIGA
-                  </div>
-                  <h3 className="title">+ 2 GB POR 7 DIAS</h3>
-                </div>
-                <ul className="services-list">
-                  <li>WhatsApp ilimitado</li>
-                  <li>Ligações ilimitadas</li>
-                  <li>SMS ilimitado</li>
-                  <div>
-                    <div className="price">
-                      <span>R$</span>15,99
-                    </div>
-                  </div>
-                </ul>
-                <button className="btn btn_get btn-lg btn-block btn_get_two">
-                  Assinar!
-                </button>
-              </div>
-            </div>
-
-            <div className="col-md-4 plan" data-aos="fade-down">
-              <div className="mobile-plan">
-                <div className="plan-header">
-                  <div className="storage">
-                    <span>
-                      <i>2</i>{" "}
-                    </span>{" "}
-                    GIGA
-                  </div>
-                  <h3 className="title">+ 3 GB POR 15 DIAS</h3>
-                </div>
-                <ul className="services-list">
-                  <li>WhatsApp ilimitado</li>
-                  <li>Ligações ilimitadas</li>
-                  <li>SMS ilimitado</li>
-                  <div>
-                    <div className="price">
-                      <span>R$</span>29,99
-                    </div>
-                  </div>
-                </ul>
-                <button className="btn btn_get btn-lg btn-block btn_get_two">
-                  Assinar!
-                </button>
-              </div>
-            </div>
-
-            <div className="col-md-4 plan" data-aos="fade-down">
-              <div className="mobile-plan">
-                <div className="plan-header">
-                  <div className="storage">
-                    <span>
-                      <i>2</i>{" "}
-                    </span>{" "}
-                    Giga
-                  </div>
-                  <h3 className="title">+ 5 GB POR 15 DIAS</h3>
-                </div>
-                <ul className="services-list">
-                  <li>WhatsApp ilimitado</li>
-                  <li>Ligações ilimitadas</li>
-                  <li>SMS ilimitado</li>
-                  <div>
-                    <div className="price">
-                      <span>R$</span>59,99
-                    </div>
-                  </div>
-                </ul>
-                <button className="btn btn_get btn-lg btn-block btn_get_two">
-                  Assinar!
-                </button>
-              </div>
-            </div>
-            <div className="col-md-8 plan" data-aos="fade-down">
-              <div className="mobile-plan">
-                <div className="plan-header">
-                  <div className="storage">
-                    <span>
-                      <i>15</i>{" "}
-                    </span>{" "}
-                    Giga
-                  </div>
-                  <h3 className="title">+ 15 GB POR 15 DIAS</h3>
-                </div>
-                <ul className="services-list">
-                  <li>WhatsApp ilimitado</li>
-                  <li>Ligações ilimitadas</li>
-                  <li>SMS ilimitado</li>
-                  <div>
-                    <div className="price">
-                      <span>R$</span>99,99
-                    </div>
-                  </div>
-                </ul>
-                <button className="btn btn_get btn-lg btn-block btn_get_two">
-                  Assinar!
-                </button>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Ducimus delectus nemo officia debitis incidunt provident
+                  commodi earum ratione quis, qui tenetur ea fugit eum
+                  perferendis consequatur assumenda! Explicabo, eum dignissimos.
+                </p>
               </div>
             </div>
           </div>

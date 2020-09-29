@@ -952,3 +952,23 @@ a {
   color: #f3854c;
   margin-right: 10px;
 }
+
+/************ content-description-mobile *************/
+
+.content-description-mobile {
+  margin: auto;
+  text-align: center;
+  margin-top: 8rem;
+}
+
+.content-description-mobile hr {
+  width: 45%;
+  border: 5px solid #f3854c;
+  border-radius: 5px;
+}
+
+.content-description-mobile p {
+  margin: auto;
+  width: 65%;
+  text-align: center;
+}
