@@ -1,12 +1,17 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Icon } from "react-icons-kit";
 import { ic_done_all } from "react-icons-kit/md/ic_done_all";
 import { ic_verified_user } from "react-icons-kit/md/ic_verified_user";
 import { ic_phonelink_ring } from "react-icons-kit/md/ic_phonelink_ring";
 import { ic_desktop_windows } from "react-icons-kit/md/ic_desktop_windows";
 import { ic_devices } from "react-icons-kit/md/ic_devices";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 export default function Internet() {
+  useEffect(() => {
+    Aos.init({ duration: 2000 });
+  }, []);
   return (
     <>
       <div className="container">
@@ -16,7 +21,7 @@ export default function Internet() {
               <h1>Internet para todos os gostos</h1>
             </div>
           </div>
-          <div className="col-lg-6">
+          <div className="col-lg-6" data-aos="fade-right">
             <h3>
               <strong>Melhores opções de planos</strong>
             </h3>
@@ -58,7 +63,7 @@ export default function Internet() {
             </button>
           </div>
           <div className="col-lg-3">
-            <div className="card-up">
+            <div className="card-up" data-aos="fade-down">
               <div className="header-card">Segurança é Integridade</div>
               <div>
                 <center>
@@ -71,7 +76,7 @@ export default function Internet() {
               </div>
             </div>
 
-            <div className="card-up">
+            <div className="card-up" data-aos="fade-up">
               <div className="header-card">Chip sem Tarífas</div>
               <div>
                 <center>
@@ -84,8 +89,8 @@ export default function Internet() {
               </div>
             </div>
           </div>
-          <div className="col-lg-3" style={{ marginTop: "6rem" }}>
-            <div className="card-down">
+          <div className="col-lg-3" style={{ marginTop: "4rem" }}>
+            <div className="card-down" data-aos="fade-down">
               <div className="header-card">Assita sem Travar</div>
               <div>
                 <center>
@@ -98,7 +103,7 @@ export default function Internet() {
               </div>
             </div>
 
-            <div className="card-down">
+            <div className="card-down" data-aos="fade-up">
               <div className="header-card">Conectividade Geral</div>
               <div>
                 <center>
