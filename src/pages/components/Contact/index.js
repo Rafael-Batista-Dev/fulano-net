@@ -10,7 +10,7 @@ const Contact = () => {
           <div className="nb-form">
             <Icon className="user-icon" icon={ic_insert_comment} size={64} />
 
-            <p className="title-contact">Fale com um especialista</p>
+            <div className="title-contact">Fale com um especialista</div>
             <form>
               <input type="text" name="cpname" placeholder="Nome:" required />
               <input

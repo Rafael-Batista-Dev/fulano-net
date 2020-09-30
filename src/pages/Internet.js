@@ -55,6 +55,7 @@ export default function Internet() {
           </div>
           <div className="col-lg-3">
             <div className="card-up">
+                <div className="header-card">Fale com um especialista</div>
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam
                 quis sapiente et, est at tenetur neque? Ducimus ea accusantium
@@ -64,6 +65,7 @@ export default function Internet() {
             </div>
 
             <div className="card-up">
+                <div className="header-card">Fale com um especialista</div>
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam
                 quis sapiente et, est at tenetur neque? Ducimus ea accusantium
@@ -74,6 +76,7 @@ export default function Internet() {
           </div>
           <div className="col-lg-3" style={{ marginTop: "6rem" }}>
             <div className="card-down">
+              <div className="header-card">Fale com um especialista</div>
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam
                 quis sapiente et, est at tenetur neque? Ducimus ea accusantium
@@ -83,6 +86,7 @@ export default function Internet() {
             </div>
 
             <div className="card-down">
+              <div className="header-card">Fale com um especialista</div>
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam
                 quis sapiente et, est at tenetur neque? Ducimus ea accusantium
