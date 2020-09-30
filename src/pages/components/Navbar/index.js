@@ -28,6 +28,7 @@ const Navbar = () => {
                 id="search"
                 className="form-control"
                 placeholder="Onde você está..."
+                style={{color: '#FFF'}}
               />
               <span className="input-group-addon">
                 <i className="material-icons">&#xE8B6;</i>

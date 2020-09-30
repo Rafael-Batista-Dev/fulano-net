@@ -44,7 +44,7 @@ p {
 
 .navbar {
   color: #fff;
-  background: #000 !important;
+  background: #3a3939 !important;
   padding: 5px 16px;
   border-radius: 0;
   border: none;
@@ -104,11 +104,11 @@ p {
   padding-right: 35px;
   min-height: 38px;
   border: none;
-  background: #ffffff;
+  background: #5a5a5a;
   border-radius: 3px !important;
 }
 .search-box input:focus {
-  background: #fff;
+  background: #5a5a5a;
   box-shadow: none !important;
   border: 1px solid #f3854c;
   outline-width: 0;
@@ -116,7 +116,7 @@ p {
 .search-box .input-group-addon {
   min-width: 35px;
   border: none;
-  background: transparent;
+
   position: absolute;
   right: 0;
   z-index: 9;
@@ -126,8 +126,8 @@ p {
   -webkit-box-shadow: none !important;
 }
 .search-box i {
-  color: #a0a5b1;
-  font-size: 19px;
+  color: #FFF;
+  font-size: 22px;
 }
 .navbar .nav-item i {
   font-size: 18px;
