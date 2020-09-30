@@ -1,6 +1,10 @@
 import React from "react";
 import { Icon } from "react-icons-kit";
 import { ic_done_all } from "react-icons-kit/md/ic_done_all";
+import { ic_verified_user } from "react-icons-kit/md/ic_verified_user";
+import { ic_phonelink_ring } from "react-icons-kit/md/ic_phonelink_ring";
+import { ic_desktop_windows } from "react-icons-kit/md/ic_desktop_windows";
+import { ic_devices } from "react-icons-kit/md/ic_devices";
 
 export default function Internet() {
   return (
@@ -25,74 +29,86 @@ export default function Internet() {
             <div className="list">
               <ul>
                 <li>
-                  <Icon className="checked-list" icon={ic_done_all} size={40} /> Teste de
-                  velocidade
+                  <Icon className="checked-list" icon={ic_done_all} size={40} />{" "}
+                  Temos planos de acordo com o tamanho do seu bolso.
                 </li>
                 <li>
-                  <Icon className="checked-list" icon={ic_done_all} size={40} /> Teste de
-                  velocidade
+                  <Icon className="checked-list" icon={ic_done_all} size={40} />{" "}
+                  A melhor banda larga do país, está na Fulano Net.
                 </li>
                 <li>
-                  <Icon className="checked-list" icon={ic_done_all} size={40} /> Teste de
-                  velocidade
+                  <Icon className="checked-list" icon={ic_done_all} size={40} />{" "}
+                  Internet móvel para todo o país, ligações ilimitadas.
                 </li>
                 <li>
-                  <Icon className="checked-list" icon={ic_done_all} size={40} /> Teste de
-                  velocidade
+                  <Icon className="checked-list" icon={ic_done_all} size={40} />{" "}
+                  Qualidade de imagem nas séries e filmes.
                 </li>
                 <li>
-                  <Icon className="checked-list" icon={ic_done_all} size={40} /> Teste de
-                  velocidade
+                  <Icon className="checked-list" icon={ic_done_all} size={40} />{" "}
+                  Nosso sinal pega até um baixo d'água, kkkkkkk.
                 </li>
               </ul>
             </div>
             <button
               className="btn btn_get btn_get_two mt4 float-left"
-              style={{ marginTop: "4rem" }}
+              style={{ marginTop: "2rem", marginBottom: "6rem" }}
             >
               Saiba mais <i className="fa fa-arrow-right"></i>
             </button>
           </div>
           <div className="col-lg-3">
             <div className="card-up">
-                <div className="header-card">Fale com um especialista</div>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam
-                quis sapiente et, est at tenetur neque? Ducimus ea accusantium
-                eaque illo. Nam expedita alias ratione assumenda a temporibus
-                tenetur iste?
-              </p>
+              <div className="header-card">Segurança é Integridade</div>
+              <div>
+                <center>
+                  <Icon
+                    className="icons-internet"
+                    icon={ic_verified_user}
+                    size={80}
+                  />
+                </center>
+              </div>
             </div>
 
             <div className="card-up">
-                <div className="header-card">Fale com um especialista</div>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam
-                quis sapiente et, est at tenetur neque? Ducimus ea accusantium
-                eaque illo. Nam expedita alias ratione assumenda a temporibus
-                tenetur iste?
-              </p>
+              <div className="header-card">Chip sem Tarífas</div>
+              <div>
+                <center>
+                  <Icon
+                    className="icons-internet"
+                    icon={ic_phonelink_ring}
+                    size={80}
+                  />
+                </center>
+              </div>
             </div>
           </div>
           <div className="col-lg-3" style={{ marginTop: "6rem" }}>
             <div className="card-down">
-              <div className="header-card">Fale com um especialista</div>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam
-                quis sapiente et, est at tenetur neque? Ducimus ea accusantium
-                eaque illo. Nam expedita alias ratione assumenda a temporibus
-                tenetur iste?
-              </p>
+              <div className="header-card">Assita sem Travar</div>
+              <div>
+                <center>
+                  <Icon
+                    className="icons-internet"
+                    icon={ic_desktop_windows}
+                    size={80}
+                  />
+                </center>
+              </div>
             </div>
 
             <div className="card-down">
-              <div className="header-card">Fale com um especialista</div>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam
-                quis sapiente et, est at tenetur neque? Ducimus ea accusantium
-                eaque illo. Nam expedita alias ratione assumenda a temporibus
-                tenetur iste?
-              </p>
+              <div className="header-card">Conectividade Geral</div>
+              <div>
+                <center>
+                  <Icon
+                    className="icons-internet"
+                    icon={ic_devices}
+                    size={80}
+                  />
+                </center>
+              </div>
             </div>
           </div>
         </div>
