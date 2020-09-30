@@ -13,46 +13,110 @@ const Plans = () => {
           <div className="row">
             <div className="col-lg-3">
               <div className="card-up">
-                <div className="header-card">Fale com um especialista</div>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Aliquam quis sapiente et, est at tenetur neque? Ducimus ea
-                  accusantium eaque illo. Nam expedita alias ratione assumenda a
-                  temporibus tenetur iste?
-                </p>
+                <div className="header-card">Vênus</div>
+                <div className="body-card">
+                  <p>Fulano Net</p>
+                  <p className="banda">
+                    4GB + <span className="more-gb">2</span>
+                    <span className="month">Mês</span>
+                  </p>
+                </div>
+                <div className="line-card">
+                  <hr />
+                </div>
+
+                <div className="list-benefits">
+                  <ul>
+                    <li>WhatsApp ilimitado</li>
+                    <li>2000 min ligações</li>
+                    <li>500 SMS disponíveis</li>
+                    <li>+ 1 GB</li>
+                  </ul>
+                </div>
+                <button className="btn btn_get btn-lg btn-block btn_get_two">
+                  Conferir !
+                </button>
               </div>
             </div>
             <div className="col-lg-3" style={{ marginTop: "6rem" }}>
               <div className="card-down">
-                <div className="header-card">Fale com um especialista</div>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Aliquam quis sapiente et, est at tenetur neque? Ducimus ea
-                  accusantium eaque illo. Nam expedita alias ratione assumenda a
-                  temporibus tenetur iste?
-                </p>
+                <div className="header-card">Marte</div>
+                <div className="body-card">
+                  <p>Fulano Net</p>
+                  <p className="banda">
+                    4GB + <span className="more-gb">3</span>
+                    <span className="month">Mês</span>
+                  </p>
+                </div>
+                <div className="line-card">
+                  <hr />
+                </div>
+
+                <div className="list-benefits">
+                  <ul>
+                    <li>WhatsApp ilimitado</li>
+                    <li>2500 min ligações</li>
+                    <li>SMS ilimitados</li>
+                    <li>+ 1.5 GB</li>
+                  </ul>
+                </div>
+                <button className="btn btn_get btn-lg btn-block btn_get_two">
+                  Conferir !
+                </button>
               </div>
             </div>
             <div className="col-lg-3">
               <div className="card-up">
-                <div className="header-card">Fale com um especialista</div>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Aliquam quis sapiente et, est at tenetur neque? Ducimus ea
-                  accusantium eaque illo. Nam expedita alias ratione assumenda a
-                  temporibus tenetur iste?
-                </p>
+                <div className="header-card">Titã</div>
+                <div className="body-card">
+                  <p>Fulano Net</p>
+                  <p className="banda">
+                    4GB + <span className="more-gb">4</span>
+                    <span className="month">Mês</span>
+                  </p>
+                </div>
+                <div className="line-card">
+                  <hr />
+                </div>
+
+                <div className="list-benefits">
+                  <ul>
+                    <li>WhatsApp ilimitado</li>
+                    <li>Ligações ilimitadas</li>
+                    <li>1200 SMS disponíveis</li>
+                    <li>+ 2 GB</li>
+                  </ul>
+                </div>
+                <button className="btn btn_get btn-lg btn-block btn_get_two">
+                  Conferir !
+                </button>
               </div>
             </div>
             <div className="col-lg-3" style={{ marginTop: "6rem" }}>
               <div className="card-down">
-                <div className="header-card">Fale com um especialista</div>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Aliquam quis sapiente et, est at tenetur neque? Ducimus ea
-                  accusantium eaque illo. Nam expedita alias ratione assumenda a
-                  temporibus tenetur iste?
-                </p>
+                <div className="header-card">Hipérion</div>
+                <div className="body-card">
+                  <p>Fulano Net</p>
+                  <p className="banda">
+                    4GB + <span className="more-gb">5</span>
+                    <span className="month">Mês</span>
+                  </p>
+                </div>
+                <div className="line-card">
+                  <hr />
+                </div>
+
+                <div className="list-benefits">
+                  <ul>
+                    <li>WhatsApp ilimitado</li>
+                    <li>Ligações ilimitadas</li>
+                    <li>SMS ilimitados</li>
+                    <li>+ 3 GB</li>
+                  </ul>
+                </div>
+                <button className="btn btn_get btn-lg btn-block btn_get_two">
+                  Conferir !
+                </button>
               </div>
             </div>
             <div className="col-lg-12">
