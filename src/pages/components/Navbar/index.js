@@ -1,5 +1,6 @@
 import React from "react";
 import Logo from "../../../assets/logo2.ico";
+import MaleUser from "../../../assets/male_user.ico";
 import { Link } from "react-router-dom";
 
 const Navbar = () => {
@@ -7,7 +8,7 @@ const Navbar = () => {
     <>
       <nav className="navbar navbar-expand-xl navbar-dark bg-dark fixed-top">
         <a href="/" className="navbar-brand">
-          <img className="img-logo" src={Logo} alt="Brisanet" />
+          <img className="img-logo" src={Logo} alt="Fulano Net" />
         </a>
         <button
           type="button"
@@ -28,7 +29,7 @@ const Navbar = () => {
                 id="search"
                 className="form-control"
                 placeholder="Onde você está..."
-                style={{color: '#FFF'}}
+                style={{ color: "#FFF" }}
               />
               <span className="input-group-addon">
                 <i className="material-icons">&#xE8B6;</i>
@@ -64,12 +65,8 @@ const Navbar = () => {
                 data-toggle="dropdown"
                 className="nav-item nav-link dropdown-toggle user-action"
               >
-                <img
-                  src="https://banner2.cleanpng.com/20180410/bbw/kisspng-avatar-user-medicine-surgery-patient-avatar-5acc9f7a7cb983.0104600115233596105109.jpg"
-                  className="avatar"
-                  alt="Avatar"
-                />{" "}
-                Usuário <b className="caret"></b>
+                <img src={MaleUser} className="avatar" alt="Avatar" /> Usuário{" "}
+                <b className="caret"></b>
               </Link>
               <div className="dropdown-menu">
                 <Link to="/" className="dropdown-item">
