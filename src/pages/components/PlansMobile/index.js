@@ -13,6 +13,7 @@ const Plans = () => {
           <div className="row">
             <div className="col-lg-3">
               <div className="card-up">
+                <div className="header-card">Fale com um especialista</div>
                 <p>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Aliquam quis sapiente et, est at tenetur neque? Ducimus ea
@@ -23,6 +24,7 @@ const Plans = () => {
             </div>
             <div className="col-lg-3" style={{ marginTop: "6rem" }}>
               <div className="card-down">
+                <div className="header-card">Fale com um especialista</div>
                 <p>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Aliquam quis sapiente et, est at tenetur neque? Ducimus ea
@@ -33,6 +35,7 @@ const Plans = () => {
             </div>
             <div className="col-lg-3">
               <div className="card-up">
+                <div className="header-card">Fale com um especialista</div>
                 <p>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Aliquam quis sapiente et, est at tenetur neque? Ducimus ea
@@ -43,6 +46,7 @@ const Plans = () => {
             </div>
             <div className="col-lg-3" style={{ marginTop: "6rem" }}>
               <div className="card-down">
+                <div className="header-card">Fale com um especialista</div>
                 <p>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Aliquam quis sapiente et, est at tenetur neque? Ducimus ea
@@ -56,7 +60,6 @@ const Plans = () => {
                 <h3>Hello world</h3>
                 <hr />
                 <br />
-
                 <p>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Ducimus delectus nemo officia debitis incidunt provident

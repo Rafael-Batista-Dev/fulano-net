@@ -25,23 +25,23 @@ export default function Internet() {
             <div className="list">
               <ul>
                 <li>
-                  <Icon className="checked-list" icon={ic_done_all} /> Teste de
+                  <Icon className="checked-list" icon={ic_done_all} size={40} /> Teste de
                   velocidade
                 </li>
                 <li>
-                  <Icon className="checked-list" icon={ic_done_all} /> Teste de
+                  <Icon className="checked-list" icon={ic_done_all} size={40} /> Teste de
                   velocidade
                 </li>
                 <li>
-                  <Icon className="checked-list" icon={ic_done_all} /> Teste de
+                  <Icon className="checked-list" icon={ic_done_all} size={40} /> Teste de
                   velocidade
                 </li>
                 <li>
-                  <Icon className="checked-list" icon={ic_done_all} /> Teste de
+                  <Icon className="checked-list" icon={ic_done_all} size={40} /> Teste de
                   velocidade
                 </li>
                 <li>
-                  <Icon className="checked-list" icon={ic_done_all} /> Teste de
+                  <Icon className="checked-list" icon={ic_done_all} size={40} /> Teste de
                   velocidade
                 </li>
               </ul>
