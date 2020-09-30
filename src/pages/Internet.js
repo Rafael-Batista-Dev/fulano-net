@@ -18,7 +18,7 @@ export default function Internet() {
         <div className="row">
           <div className="col-lg-12">
             <div className="content-title">
-              <h1>Internet para todos os gostos</h1>
+              <h1 data-aos="fade-down">Internet para todos os gostos</h1>
             </div>
           </div>
           <div className="col-lg-6" data-aos="fade-right">

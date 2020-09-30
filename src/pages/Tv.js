@@ -1,7 +1,12 @@
-import React from "react";
+import React, { useEffect } from "react";
 import PlansTv from "./components/PlansTv";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 export default function Tv() {
+  useEffect(() => {
+    Aos.init({ duration: 2000 });
+  }, []);
   return (
     <>
       <div className="content" style={{ background: "#FFF" }}>
@@ -9,7 +14,7 @@ export default function Tv() {
           <div className="row">
             <div className="col-lg-12">
               <div className="content-title">
-                <h1>Toda a emoção da TV</h1>
+                <h1 data-aos="fade-down">Toda a emoção da TV</h1>
               </div>
             </div>
 
