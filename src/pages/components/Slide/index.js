@@ -18,7 +18,7 @@ const images = [
   */
   {
     original:
-      "https://images.even3.com.br/qwTvVtfvc8tAdLO-hCW214YXEVs=/1300x536/smart/even3.blob.core.windows.net/banner/Atendimento.0b7e2fcbb9ec4d4c8e7b.jpg",
+      "https://www.jotaftelecom.com.br/wp-content/uploads/2019/04/banner3.png",
     thumbnail: "https:",
   },
 ];

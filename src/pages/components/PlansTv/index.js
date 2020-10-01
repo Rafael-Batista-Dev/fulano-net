@@ -120,6 +120,7 @@ const Plans = () => {
                         a temporibus tenetur iste?
                         </p>
                     </div>
+                    <div class="line-vertical"></div>
                     <div className='float-rigth' >
                         <Icon className="checked-list" icon={imdb} size={60} />
                     </div>
@@ -149,6 +150,7 @@ const Plans = () => {
                         a temporibus tenetur iste?
                         </p>
                     </div>
+                    <div class="line-vertical"></div>
                     <div className='float-rigth' >
                         <Icon className="checked-list" icon={ic_cast_connected} size={60} />
                     </div>
@@ -165,6 +167,7 @@ const Plans = () => {
                         a temporibus tenetur iste?
                         </p>
                     </div>
+                    <div class="line-vertical"></div>
                     <div className='float-rigth' >
                         <Icon className="checked-list" icon={amazon} size={60} />
                     </div>
@@ -181,6 +184,7 @@ const Plans = () => {
                         a temporibus tenetur iste?
                         </p>
                     </div>
+                    <div class="line-vertical"></div>
                     <div className='float-rigth' >
                         <Icon className="checked-list" icon={youtube} size={60} />
                     </div>

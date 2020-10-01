@@ -965,6 +965,11 @@ a {
   border-radius: 5px;
 }
 
+.line-vertical{
+height: 50px;
+   border: 1px solid #f3854c;
+}
+
 .body-card p {
   font-size: 32px;
   color: #f3854c;
