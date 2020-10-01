@@ -11,7 +11,7 @@ const Plans = () => {
       <div className="content" style={{ marginBottom: "4rem" }}>
         <div className="container">
           <div className="row">
-            <div className="col-lg-3">
+            <div className="col-lg-3" data-aos="fade-down">
               <div className="card-up">
                 <div className="header-card">Vênus</div>
                 <div className="body-card">
@@ -38,7 +38,7 @@ const Plans = () => {
                 </button>
               </div>
             </div>
-            <div className="col-lg-3" style={{ marginTop: "6rem" }}>
+            <div className="col-lg-3" data-aos="fade-up" style={{ marginTop: "6rem" }}>
               <div className="card-down">
                 <div className="header-card">Marte</div>
                 <div className="body-card">
@@ -65,7 +65,7 @@ const Plans = () => {
                 </button>
               </div>
             </div>
-            <div className="col-lg-3">
+            <div className="col-lg-3" data-aos="fade-down">
               <div className="card-up">
                 <div className="header-card">Titã</div>
                 <div className="body-card">
@@ -92,7 +92,7 @@ const Plans = () => {
                 </button>
               </div>
             </div>
-            <div className="col-lg-3" style={{ marginTop: "6rem" }}>
+            <div className="col-lg-3" data-aos="fade-up" style={{ marginTop: "6rem" }}>
               <div className="card-down">
                 <div className="header-card">Hipérion</div>
                 <div className="body-card">
@@ -120,7 +120,7 @@ const Plans = () => {
               </div>
             </div>
             <div className="col-lg-12">
-              <div className="content-description-mobile">
+              <div className="content-description-mobile" data-aos="fade-right">
                 <h3>Hello world</h3>
                 <hr />
                 <br />
