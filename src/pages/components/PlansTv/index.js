@@ -1,4 +1,12 @@
 import React, { useEffect } from "react";
+import { Icon } from 'react-icons-kit'
+import {ic_cast_connected} from 'react-icons-kit/md/ic_cast_connected'
+import {amazon} from 'react-icons-kit/fa/amazon'
+import {youtube} from 'react-icons-kit/fa/youtube'
+import {imdb} from 'react-icons-kit/fa/imdb'
+
+
+
 import Aos from "aos";
 import "aos/dist/aos.css";
 
@@ -104,12 +112,17 @@ const Plans = () => {
                 </div>
               </div>
               <div className="card-down" style={{ marginTop: "4.5rem" }}>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Aliquam quis sapiente et, est at tenetur neque? Ducimus ea
-                  accusantium eaque illo. Nam expedita alias ratione assumenda a
-                  temporibus tenetur iste?
-                </p>
+                    <div className='card-body-tv'>
+                        <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Aliquam quis sapiente et, est at tenetur neque? Ducimus ea
+                        accusantium eaque illo. Nam expedita alias ratione assumenda
+                        a temporibus tenetur iste?
+                        </p>
+                    </div>
+                    <div className='float-rigth' >
+                        <Icon className="checked-list" icon={imdb} size={60} />
+                    </div>
               </div>
             </div>
             <div className="col-lg-8">
@@ -128,34 +141,49 @@ const Plans = () => {
 
               <div className="col-lg-12" style={{ marginTop: "2rem" }}>
                 <div className="card-down">
-                  <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Aliquam quis sapiente et, est at tenetur neque? Ducimus ea
-                    accusantium eaque illo. Nam expedita alias ratione assumenda
-                    a temporibus tenetur iste?
-                  </p>
+                    <div className='card-body-tv'>
+                        <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Aliquam quis sapiente et, est at tenetur neque? Ducimus ea
+                        accusantium eaque illo. Nam expedita alias ratione assumenda
+                        a temporibus tenetur iste?
+                        </p>
+                    </div>
+                    <div className='float-rigth' >
+                        <Icon className="checked-list" icon={ic_cast_connected} size={60} />
+                    </div>
                 </div>
               </div>
 
               <div className="col-lg-12" style={{ marginTop: "2rem" }}>
                 <div className="card-down">
-                  <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Aliquam quis sapiente et, est at tenetur neque? Ducimus ea
-                    accusantium eaque illo. Nam expedita alias ratione assumenda
-                    a temporibus tenetur iste?
-                  </p>
+                    <div className='card-body-tv'>
+                        <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Aliquam quis sapiente et, est at tenetur neque? Ducimus ea
+                        accusantium eaque illo. Nam expedita alias ratione assumenda
+                        a temporibus tenetur iste?
+                        </p>
+                    </div>
+                    <div className='float-rigth' >
+                        <Icon className="checked-list" icon={amazon} size={60} />
+                    </div>
                 </div>
               </div>
 
               <div className="col-lg-12" style={{ marginTop: "2rem" }}>
                 <div className="card-down">
-                  <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Aliquam quis sapiente et, est at tenetur neque? Ducimus ea
-                    accusantium eaque illo. Nam expedita alias ratione assumenda
-                    a temporibus tenetur iste?
-                  </p>
+                    <div className='card-body-tv'>
+                        <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Aliquam quis sapiente et, est at tenetur neque? Ducimus ea
+                        accusantium eaque illo. Nam expedita alias ratione assumenda
+                        a temporibus tenetur iste?
+                        </p>
+                    </div>
+                    <div className='float-rigth' >
+                        <Icon className="checked-list" icon={youtube} size={60} />
+                    </div>
                 </div>
               </div>
             </div>
