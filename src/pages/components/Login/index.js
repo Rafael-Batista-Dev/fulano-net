@@ -10,8 +10,8 @@ const Login = () => {
   }, []);
   return (
     <>
-      <div className="container-fluid " style={{ marginTop: "7rem" }}>
-        <div className="row">
+      <div className="container-fluid " style={{ marginTop: "8rem" }}>
+        <div className="row" style={{ marginBottom: "4rem" }}>
           <div className="col-lg-12">
             <div className="card main-div" data-aos="fade-down">
               <center>
