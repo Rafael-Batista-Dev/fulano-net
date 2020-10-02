@@ -27,13 +27,13 @@ const Plans = () => {
                 className="content-description-tv "
                 style={{ marginBottom: "4rem" }}
               >
-                <h3>Streaming e live</h3>
+                <h3 data-aos="fade-down">Streaming e live</h3>
                 <hr />
               </div>
             </div>
 
             <div className="col-lg-6 mbr-col-md-10">
-              <div className="wrap">
+              <div className="wrap" data-aos="fade-right">
                 <div className="text-wrap vcenter">
                   <h2 className="mbr-fonts-style mbr-bold mbr-section-title3 display-5">
                     Amazon <span>prime video</span>
@@ -49,7 +49,7 @@ const Plans = () => {
               </div>
             </div>
             <div className="col-lg-6 mbr-col-md-10">
-              <div className="wrap">
+              <div className="wrap" data-aos="fade-left">
                 <div className="text-wrap vcenter">
                   <h2 className="mbr-fonts-style mbr-bold mbr-section-title3 display-5">
                     You tube
@@ -66,7 +66,7 @@ const Plans = () => {
               </div>
             </div>
             <div className="col-lg-6 mbr-col-md-10">
-              <div className="wrap">
+              <div className="wrap" data-aos="fade-right">
                 <div className="text-wrap vcenter">
                   <h2 className="mbr-fonts-style mbr-bold mbr-section-title3 display-5">
                     IMDB
@@ -83,7 +83,7 @@ const Plans = () => {
               </div>
             </div>
             <div className="col-lg-6 mbr-col-md-10">
-              <div className="wrap">
+              <div className="wrap" data-aos="fade-left">
                 <div className="text-wrap vcenter">
                   <h2 className="mbr-fonts-style mbr-bold mbr-section-title3 display-5">
                     Twitch TV <span> lives videos</span>
