@@ -1062,7 +1062,7 @@ a {
 .wrap {
   display: flex;
   background: white;
-  padding: 1rem 1rem 1rem 1rem;
+  padding: 1rem;
   border-radius: 12px;
   margin-bottom: 2rem;
   box-shadow: 0px 0px 2em #999999;
@@ -1077,6 +1077,8 @@ a {
 
 .ico-wrap {
   margin: auto;
+  margin-left: 20px;
+  color: #f59b6e;
 }
 
 .mbr-iconfont {
@@ -1092,10 +1094,7 @@ a {
 .mbr-section-title3 {
   text-align: left;
 }
-h2 {
-  margin-top: 0.5rem;
-  margin-bottom: 0.5rem;
-}
+
 .display-5 {
   font-size: 1.4rem;
 }
@@ -1103,11 +1102,6 @@ h2 {
   font-weight: 700;
 }
 
-p {
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
-  line-height: 25px;
-}
 .display-6 {
   font-size: 1re;
 }
