@@ -13,7 +13,7 @@ export default function MyFriend() {
   return (
     <>
       <div className="container">
-        <div className="row">
+        <div className="row" style={{ marginBottom: "4rem" }}>
           <div className="col-lg-12">
             <div className="content-title">
               <h1 data-aos="fade-down">Você indica, a gente liga</h1>
@@ -35,46 +35,45 @@ export default function MyFriend() {
               ></Lottie>
             </div>
           </div>
-          <div className="row">
-            <div className="col-lg-12" data-aos="fade-left">
-              <div className="main-div">
-                <label className="mt-2">
-                  <h6 className="mt-2 text-sm">Seu Nome</h6>
-                </label>
-                <input
-                  className="mb-1"
-                  type="text"
-                  name="nome"
-                  placeholder="Informe seu nome"
-                ></input>
 
-                <label className="mb-1">
-                  <h6 className="mt-2 text-sm">Telefone</h6>
-                </label>
-                <input
-                  className="mb-1"
-                  type="text"
-                  name="telefone"
-                  placeholder="Informe seu nome"
-                ></input>
+          <div className="col-lg-6" data-aos="fade-left">
+            <div className="main-div">
+              <label className="mt-2">
+                <h6 className="mt-2 text-sm">Seu Nome</h6>
+              </label>
+              <input
+                className="mb-1"
+                type="text"
+                name="nome"
+                placeholder="Informe seu nome"
+              ></input>
 
-                <label className="mb-1">
-                  <h6 className="mt-2 text-sm">Email</h6>
-                </label>
-                <input
-                  className="mb-1"
-                  type="email"
-                  name="email"
-                  placeholder="Informe seu nome"
-                ></input>
+              <label className="mb-1">
+                <h6 className="mt-2 text-sm">Telefone</h6>
+              </label>
+              <input
+                className="mb-1"
+                type="text"
+                name="telefone"
+                placeholder="Informe seu nome"
+              ></input>
 
-                <button
-                  type="submit"
-                  className="mt-4 btn btn_get btn-lg btn-block btn_get_two"
-                >
-                  Entrar
-                </button>
-              </div>
+              <label className="mb-1">
+                <h6 className="mt-2 text-sm">Email</h6>
+              </label>
+              <input
+                className="mb-1"
+                type="email"
+                name="email"
+                placeholder="Informe seu nome"
+              ></input>
+
+              <button
+                type="submit"
+                className="mt-4 btn btn_get btn-lg btn-block btn_get_two"
+              >
+                Entrar
+              </button>
             </div>
           </div>
         </div>
