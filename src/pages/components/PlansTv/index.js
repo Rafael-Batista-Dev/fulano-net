@@ -24,7 +24,10 @@ const Plans = () => {
         <div className="container">
           <div className="row">
             <div className="col-lg-12">
-              <div className="content-description-tv ">
+              <div
+                className="content-description-tv "
+                style={{ marginBottom: "4rem" }}
+              >
                 <h3>Hello world</h3>
                 <hr />
                 <br />
@@ -38,8 +41,71 @@ const Plans = () => {
               </div>
             </div>
 
-            <div className="col-12">
-              <h4>hello world</h4>
+            <div className="col-lg-6 mbr-col-md-10">
+              <div className="wrap">
+                <div className="text-wrap vcenter">
+                  <h2 className="mbr-fonts-style mbr-bold mbr-section-title3 display-5">
+                    Amazon <span>prime video</span>
+                  </h2>
+                  <p className="mbr-fonts-style text1 mbr-text display-6">
+                    Lorem Ipsum is simply dummy text of the printing and
+                    typesetting industry. Lorem Ipsum
+                  </p>
+                </div>
+                <div className="ico-wrap">
+                  <Icon className="checked-list" icon={amazon} size={60} />
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-6 mbr-col-md-10">
+              <div className="wrap">
+                <div className="text-wrap vcenter">
+                  <h2 className="mbr-fonts-style mbr-bold mbr-section-title3 display-5">
+                    You tube
+                    <span> séries & filmes</span>
+                  </h2>
+                  <p className="mbr-fonts-style text1 mbr-text display-6">
+                    Lorem Ipsum is simply dummy text of the printing and
+                    typesetting industry. Lorem Ipsum
+                  </p>
+                </div>
+                <div className="ico-wrap">
+                  <Icon className="checked-list" icon={youtube} size={60} />
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6 mbr-col-md-10">
+              <div class="wrap">
+                <div class="text-wrap vcenter">
+                  <h2 class="mbr-fonts-style mbr-bold mbr-section-title3 display-5">
+                    IMDB
+                    <span> todos os score</span>
+                  </h2>
+                  <p class="mbr-fonts-style text1 mbr-text display-6">
+                    Lorem Ipsum is simply dummy text of the printing and
+                    typesetting industry. Lorem Ipsum
+                  </p>
+                </div>
+                <div class="ico-wrap">
+                  <Icon className="checked-list" icon={imdb} size={60} />
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6 mbr-col-md-10">
+              <div class="wrap">
+                <div class="text-wrap vcenter">
+                  <h2 class="mbr-fonts-style mbr-bold mbr-section-title3 display-5">
+                    Twitch TV <span> lives videos</span>
+                  </h2>
+                  <p class="mbr-fonts-style text1 mbr-text display-6">
+                    Lorem Ipsum is simply dummy text of the printing and
+                    typesetting industry. Lorem Ipsum
+                  </p>
+                </div>
+                <div class="ico-wrap">
+                  <Icon className="checked-list" icon={twitch} size={60} />
+                </div>
+              </div>
             </div>
           </div>
         </div>
