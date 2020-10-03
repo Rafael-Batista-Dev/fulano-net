@@ -13,7 +13,10 @@ const Plans = () => {
           <div className="row">
             <div className="col-lg-3" data-aos="fade-down">
               <div className="card-up">
-                <div className="header-card">Vênus</div>
+                <div className="header-card-tv">
+                  {" "}
+                  <h3>Vênus</h3>{" "}
+                </div>
                 <div className="body-card">
                   <p>Fulano Net</p>
                   <p className="banda">
@@ -38,9 +41,16 @@ const Plans = () => {
                 </button>
               </div>
             </div>
-            <div className="col-lg-3" data-aos="fade-up" style={{ marginTop: "6rem" }}>
+            <div
+              className="col-lg-3"
+              data-aos="fade-up"
+              style={{ marginTop: "6rem" }}
+            >
               <div className="card-down">
-                <div className="header-card">Marte</div>
+                <div className="header-card-tv">
+                  {" "}
+                  <h3>Marte</h3>{" "}
+                </div>
                 <div className="body-card">
                   <p>Fulano Net</p>
                   <p className="banda">
@@ -67,7 +77,10 @@ const Plans = () => {
             </div>
             <div className="col-lg-3" data-aos="fade-down">
               <div className="card-up">
-                <div className="header-card">Titã</div>
+                <div className="header-card-tv">
+                  {" "}
+                  <h3>Titã</h3>{" "}
+                </div>
                 <div className="body-card">
                   <p>Fulano Net</p>
                   <p className="banda">
@@ -92,9 +105,16 @@ const Plans = () => {
                 </button>
               </div>
             </div>
-            <div className="col-lg-3" data-aos="fade-up" style={{ marginTop: "6rem" }}>
+            <div
+              className="col-lg-3"
+              data-aos="fade-up"
+              style={{ marginTop: "6rem" }}
+            >
               <div className="card-down">
-                <div className="header-card">Hipérion</div>
+                <div className="header-card-tv">
+                  {" "}
+                  <h3>Hipérion</h3>{" "}
+                </div>
                 <div className="body-card">
                   <p>Fulano Net</p>
                   <p className="banda">

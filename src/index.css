@@ -859,6 +859,27 @@ a {
   -moz-box-shadow: 0px 0px 1em #999999;
 }
 
+.header-card-tv {
+  margin-bottom: 1rem;
+  margin-right: -40px;
+  margin-left: 40px;
+  background: #f3854c;
+  border-radius: 8px;
+  box-shadow: 0px 0px 1em #999999;
+  -webkit-box-shadow: 0px 0px 1em #999999;
+  -moz-box-shadow: 0px 0px 1em #999999;
+}
+
+.header-card-tv h3 {
+  font-size: 26px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  color: #fff;
+  padding: 10px;
+  margin-left: 20px;
+}
+
 /*-- Text --*/
 
 .form-container input {
