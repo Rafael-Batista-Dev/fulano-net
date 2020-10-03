@@ -15,7 +15,7 @@ const Login = () => {
           <div className="col-lg-12">
             <div className="card main-div" data-aos="fade-down">
               <center>
-                <img src={Logo} className="logo" alt="Brisanet" />
+                <img src={Logo} className="logo" alt="Fulano Net" />
               </center>
               <br />
               <div className="btn-group btn-group-toggle">
