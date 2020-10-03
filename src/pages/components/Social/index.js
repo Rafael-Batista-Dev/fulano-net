@@ -40,21 +40,21 @@ const Social = () => {
           </div>
           <div className="col-lg-6 col-md-6" data-aos="fade-left">
             <p>
-              A Brisanet trabalha há mais de 20 anos procurando inovar na área
+              A Fulano Net trabalha há mais de 20 anos procurando inovar na área
               de Telecomunicações, a fim de garantir qualidade aos clientes,
               contando com o apoio de profissionais capacitados para operar,
               incorporar, inovar e acompanhar as tendências tecnológicas.
             </p>
 
             <p>
-              A Brisanet trabalha há mais de 20 anos procurando inovar na área
+              A Fulano Net trabalha há mais de 20 anos procurando inovar na área
               de Telecomunicações, a fim de garantir qualidade aos clientes,
               contando com o apoio de profissionais capacitados para operar,
               incorporar, inovar e acompanhar as tendências tecnológicas.
             </p>
 
             <p>
-              A Brisanet trabalha há mais de 20 anos procurando inovar na área
+              A Fulano Net trabalha há mais de 20 anos procurando inovar na área
               de Telecomunicações, a fim de garantir qualidade aos clientes,
               contando com o apoio de profissionais capacitados para operar,
               incorporar, inovar e acompanhar as tendências tecnológicas.

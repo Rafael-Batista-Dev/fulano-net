@@ -2,6 +2,7 @@ body {
   background: #eeeeee;
   font-family: "Varela Round", sans-serif;
   color: #616265;
+  overflow-x: hidden;
 }
 
 .content-title {

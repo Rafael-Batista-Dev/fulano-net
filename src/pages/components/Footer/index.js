@@ -85,7 +85,7 @@ const Footer = () => {
                   <h3 className="f-title f_600 t_color f_size_18">CLIENTES</h3>
                   <ul className="list-unstyled f_list">
                     <li>
-                      <a href="/">BRISACLIENTE</a>
+                      <a href="/">FULANOCLIENTE</a>
                     </li>
                     <li>
                       <a href="/">FALE CONOSCO</a>
@@ -115,8 +115,8 @@ const Footer = () => {
                 >
                   <h3 className="f-title f_600 t_color f_size_18">SOBRE NÓS</h3>
                   <p style={{ textAlign: "justify" }}>
-                    A Brisanet trabalha há mais de 20 anos procurando inovar na
-                    área de Telecomunicações, a fim de garantir qualidade aos
+                    A Fulano Net trabalha há mais de 20 anos procurando inovar
+                    na área de Telecomunicações, a fim de garantir qualidade aos
                     clientes, contando com o apoio de profissionais capacitados
                     para operar, incorporar, inovar e acompanhar as tendências
                     tecnológicas.
