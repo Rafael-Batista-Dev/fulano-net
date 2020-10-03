@@ -64,7 +64,7 @@ export default function Internet() {
           </div>
           <div className="col-lg-3">
             <div className="card-up" data-aos="fade-down">
-              <div className="header-card">Segurança é Integridade</div>
+              <div className="header-card">Segurança</div>
               <div>
                 <center>
                   <Icon
@@ -104,7 +104,7 @@ export default function Internet() {
             </div>
 
             <div className="card-down" data-aos="fade-up">
-              <div className="header-card">Conectividade Geral</div>
+              <div className="header-card"> + Conectividade</div>
               <div>
                 <center>
                   <Icon

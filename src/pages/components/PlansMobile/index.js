@@ -141,7 +141,7 @@ const Plans = () => {
             </div>
             <div className="col-lg-12">
               <div className="content-description-mobile" data-aos="fade-right">
-                <h3>Hello world</h3>
+                <h3>Agora você pode consultar seu saldo</h3>
                 <hr />
                 <br />
                 <p>
