@@ -987,7 +987,7 @@ a {
 
 .line-card hr {
   width: 100%;
-  border: 1px solid #8269e0;
+  border: 1px solid #f3854c;
   border-radius: 5px;
 }
 
@@ -996,11 +996,6 @@ a {
   border: 1px solid #f3854c;
 }
 
-.body-card p {
-  font-size: 32px;
-  font-weight: 500;
-  color: #755fc7;
-}
 
 .banda {
   margin-top: -2.5rem;
@@ -1015,10 +1010,14 @@ a {
   padding: 2px;
 }
 
+.site-name{
+    font-size: 32px;
+    font-weight: 700;
+}
 .more-gb {
   font-size: 62px;
   font-weight: 700;
-  color: #b7b2c5;
+  color: #9d8fc2;
 }
 
 .month {
@@ -1059,7 +1058,7 @@ a {
 
 .content-description-mobile hr {
   width: 45%;
-  border: 5px solid #8269e0;
+  border: 5px solid #f3854c;
   border-radius: 5px;
 }
 
@@ -1078,7 +1077,7 @@ a {
 
 .content-description-tv hr {
   width: 45%;
-  border: 5px solid #8269e0;
+  border: 5px solid #f3854c;
   border-radius: 5px;
 }
 

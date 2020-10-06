@@ -18,7 +18,7 @@ const Plans = () => {
                   <h3>Vênus</h3>{" "}
                 </div>
                 <div className="body-card">
-                  <p>Fulano Net</p>
+                  <p className="site-name" className="site-name">Fulano Net</p>
                   <p className="banda">
                     4GB + <span className="more-gb">2</span>
                     <span className="month">Mês</span>
@@ -52,7 +52,7 @@ const Plans = () => {
                   <h3>Marte</h3>{" "}
                 </div>
                 <div className="body-card">
-                  <p>Fulano Net</p>
+                  <p className="site-name">Fulano Net</p>
                   <p className="banda">
                     4GB + <span className="more-gb">3</span>
                     <span className="month">Mês</span>
@@ -82,7 +82,7 @@ const Plans = () => {
                   <h3>Titã</h3>{" "}
                 </div>
                 <div className="body-card">
-                  <p>Fulano Net</p>
+                  <p className="site-name">Fulano Net</p>
                   <p className="banda">
                     4GB + <span className="more-gb">4</span>
                     <span className="month">Mês</span>
@@ -116,7 +116,7 @@ const Plans = () => {
                   <h3>Hipérion</h3>{" "}
                 </div>
                 <div className="body-card">
-                  <p>Fulano Net</p>
+                  <p className="site-name">Fulano Net</p>
                   <p className="banda">
                     4GB + <span className="more-gb">5</span>
                     <span className="month">Mês</span>
