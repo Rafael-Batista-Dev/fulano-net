@@ -17,7 +17,7 @@
 
 ## 💻 Sobre o projeto
 
-🎞️ Marvel Quiz - é uma aplicação, que tem como objetivo, medir seus conhecimentos no universo da Marvel. Onde aplicamos uma série de questionários de três níveis para medir os conhecimentos do fã.
+🎞️ Fulano Net - é um web site desenvolvida em react JS, onde tem como objetivo, dar uma identidade virtual à uma empresa provedora de internet .
 
 ## 📢 Layout
 
