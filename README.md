@@ -1,68 +1,82 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h1 align="center">
+    <img alt="FulanoNet" width= '30%' title="#FulanoNet" src="https://github.com/Rafael-Batista-Dev/web-site-net/blob/master/assets/marvel.png" />
+</h1>
 
-## Available Scripts
+<h4 align="center"> 
+	 Fulano Net 1.0 🚀
+</h4>
 
-In the project directory, you can run:
+<p align="center">
+ <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/Rafael-Batista-Dev/web-site-net">
 
-### `yarn start`
+ <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/Rafael-Batista-Dev/web-site-net">
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+ <img alt="GitHub" src="https://img.shields.io/github/license/Rafael-Batista-Dev/web-site-net">
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+</p>
 
-### `yarn test`
+## 💻 Sobre o projeto
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+🎞️ Marvel Quiz - é uma aplicação, que tem como objetivo, medir seus conhecimentos no universo da Marvel. Onde aplicamos uma série de questionários de três níveis para medir os conhecimentos do fã.
 
-### `yarn build`
+## 📢 Layout
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+O layout da aplicação está disponível em gif:
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+<p align="center" width= '90%'>
+<img alt="FulanoNet" title="#FulanoNet" src="https://github.com/Rafael-Batista-Dev/web-site-net/blob/master/assets/web-site-net.gif" />
+</p>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 🛠 Tecnologias
 
-### `yarn eject`
+As seguintes ferramentas foram usadas na construção do projeto:
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+- [Node.js][nodejs]
+- [React][reactjs]
+- [JavaScript][javascript]
+- [Bootstrap][bootstrap]
+- [CSS3][css3]
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 🚀 Como rodar este projeto
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Este projeto considerar apenas em uma parte:
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+### Pré-requisitos
 
-## Learn More
+Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
+[Git](https://git-scm.com), [Node.js][nodejs].
+Além disto é bom ter um editor para trabalhar com o código como [VSCode][vscode]
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### 🎲 Rodando o Projeto
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```bash
+# Clone este repositório
+$ https://github.com/Rafael-Batista-Dev/web-site-net.git
 
-### Code Splitting
+# Acesse a pasta do projeto no terminal/cmd
+$ cd web-site-net
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+# Instale as dependências
+$ npm install
 
-### Analyzing the Bundle Size
+# Execute a aplicação em modo de desenvolvimento
+$ npm start OU yarn start
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+## 📝 Licença
 
-### Making a Progressive Web App
+Este projeto esta sobe a licença MIT. Veja a [LICENÇA](license) para saber mais.
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+Feito com ❤️ por Rafael Batista 👋🏽 [Entre em contato!](www.linkedin.com/in/rafael-batista-dev)
 
-### Advanced Configuration
+:email: rafaelbatista.sth@gmail.com
+:octocat: Github –[https://github.com/](https://github.com/Rafael-Batista-Dev)
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+[nodejs]: https://nodejs.org/
+[reactjs]: https://reactjs.org
+[yarn]: https://yarnpkg.com/
+[vscode]: https://code.visualstudio.com/
+[vceditconfig]: https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig
+[license]: https://opensource.org/licenses/MIT
+[vceslint]: https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint
+[prettier]: https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode
+```
