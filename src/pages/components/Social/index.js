@@ -62,7 +62,7 @@ const Social = () => {
 
             <button
               className="btn btn_get btn_get_two float-right"
-              data-aos="fade-right"
+              
             >
               Saiba mais <i className="fa fa-arrow-right"></i>
             </button>
