@@ -257,27 +257,28 @@ p {
 
 .banner01 {
   border-radius: 0px 60px 0px 0px;
-  box-shadow: 0px 0px 1em #999999;
-  -webkit-box-shadow: 0px 0px 1em #999999;
-  -moz-box-shadow: 0px 0px 1em #999999;
+  box-shadow: 0px 0px 1em #868686;
+  -webkit-box-shadow: 0px 0px 1em #868686;
+  -moz-box-shadow: 0px 0px 1em #868686;
 }
 
 .banner02 {
-  box-shadow: 0px 0px 1em #999999;
-  -webkit-box-shadow: 0px 0px 1em #999999;
-  -moz-box-shadow: 0px 0px 1em #999999;
+  border-radius: 0px 0px 0px 60px;
+  box-shadow: 0px 0px 1em #868686;
+  -webkit-box-shadow: 0px 0px 1em #868686;
+  -moz-box-shadow: 0px 0px 1em #868686;
 }
 
 .banner03 {
-  box-shadow: 0px 0px 1em #999999;
-  -webkit-box-shadow: 0px 0px 1em #999999;
-  -moz-box-shadow: 0px 0px 1em #999999;
+  box-shadow: 0px 0px 1em #868686;
+  -webkit-box-shadow: 0px 0px 1em #868686;
+  -moz-box-shadow: 0px 0px 1em #868686;
 }
 
 .banner04 {
-  box-shadow: 0px 0px 1em #999999;
-  -webkit-box-shadow: 0px 0px 1em #999999;
-  -moz-box-shadow: 0px 0px 1em #999999;
+  box-shadow: 0px 0px 1em #868686;
+  -webkit-box-shadow: 0px 0px 1em #868686;
+  -moz-box-shadow: 0px 0px 1em #868686;
 }
 
 /*********** footer ************/
