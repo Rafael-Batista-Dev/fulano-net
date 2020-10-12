@@ -17,7 +17,7 @@ const Footer = () => {
                     animationName: "fadeInLeft",
                   }}
                 >
-                  <h3 className="f-title f_600 t_color f_size_18">
+                  <h3 style={{marginTop: '20px'}} className="f-title f_600 t_color f_size_18">
                     ENTRE EM CONTATO
                   </h3>
                   <p>Fique por dentro de nossas novidades!</p>
@@ -51,7 +51,7 @@ const Footer = () => {
                     animationName: "fadeInLeft",
                   }}
                 >
-                  <h3 className="f-title f_600 t_color f_size_18">SERVIÇOS</h3>
+                  <h3 style={{marginTop: '20px'}} className="f-title f_600 t_color f_size_18">SERVIÇOS</h3>
                   <ul className="list-unstyled f_list">
                     <li>
                       <a href="/">EMPRESAS</a>
@@ -82,7 +82,7 @@ const Footer = () => {
                     animationName: "fadeInLeft",
                   }}
                 >
-                  <h3 className="f-title f_600 t_color f_size_18">CLIENTES</h3>
+                  <h3 style={{marginTop: '20px'}} className="f-title f_600 t_color f_size_18">CLIENTES</h3>
                   <ul className="list-unstyled f_list">
                     <li>
                       <a href="/">FULANOCLIENTE</a>
@@ -113,7 +113,7 @@ const Footer = () => {
                     animationName: "fadeInLeft",
                   }}
                 >
-                  <h3 className="f-title f_600 t_color f_size_18">SOBRE NÓS</h3>
+                  <h3 style={{marginTop: '20px'}} className="f-title f_600 t_color f_size_18">SOBRE NÓS</h3>
                   <p style={{ textAlign: "justify" }}>
                     A Fulano Net trabalha há mais de 20 anos procurando inovar
                     na área de Telecomunicações, a fim de garantir qualidade aos
