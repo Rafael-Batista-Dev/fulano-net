@@ -22,7 +22,7 @@
 O layout da aplicação está disponível em gif:
 
 <p align="center" width= '90%'>
-<img alt="FulanoNet" title="#FulanoNet" src="https://github.com/Rafael-Batista-Dev/web-site-net/blob/master/assets/web-site-net.gif" />
+<img alt="FulanoNet" title="#FulanoNet" src="https://github.com/Rafael-Batista-Dev/fulano-net/blob/master/src/assets/fulano-net.gif" />
 </p>
 
 ## 🛠 Tecnologias
