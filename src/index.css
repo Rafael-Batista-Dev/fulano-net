@@ -262,6 +262,24 @@ p {
   -moz-box-shadow: 0px 0px 1em #999999;
 }
 
+.banner02 {
+  box-shadow: 0px 0px 1em #999999;
+  -webkit-box-shadow: 0px 0px 1em #999999;
+  -moz-box-shadow: 0px 0px 1em #999999;
+}
+
+.banner03 {
+  box-shadow: 0px 0px 1em #999999;
+  -webkit-box-shadow: 0px 0px 1em #999999;
+  -moz-box-shadow: 0px 0px 1em #999999;
+}
+
+.banner04 {
+  box-shadow: 0px 0px 1em #999999;
+  -webkit-box-shadow: 0px 0px 1em #999999;
+  -moz-box-shadow: 0px 0px 1em #999999;
+}
+
 /*********** footer ************/
 
 .new_footer_area {
