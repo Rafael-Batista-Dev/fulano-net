@@ -1,5 +1,5 @@
 <h1 align="center">
-    <img alt="FulanoNet" width= '30%' title="#FulanoNet" src="https://github.com/Rafael-Batista-Dev/web-site-net/blob/master/assets/marvel.png" />
+    <img alt="FulanoNet" width= '150px' title="#FulanoNet" src="https://github.com/Rafael-Batista-Dev/web-site-net/blob/master/src/assets/logo.png" />
 </h1>
 
 <h4 align="center"> 
@@ -10,8 +10,6 @@
  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/Rafael-Batista-Dev/web-site-net">
 
  <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/Rafael-Batista-Dev/web-site-net">
-
- <img alt="GitHub" src="https://img.shields.io/github/license/Rafael-Batista-Dev/web-site-net">
 
 </p>
 
