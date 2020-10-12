@@ -19,7 +19,7 @@ const Plans = () => {
                 <div className="plan-header">
                   <div className="storage">
                     <span>
-                      <i>50</i>{" "}
+                      50{" "}
                     </span>{" "}
                     Mega
                   </div>
@@ -50,7 +50,7 @@ const Plans = () => {
                 <div className="plan-header">
                   <div className="storage">
                     <span>
-                      <i>100</i>{" "}
+                      100{" "}
                     </span>{" "}
                     Mega
                   </div>
@@ -81,7 +81,7 @@ const Plans = () => {
                 <div className="plan-header">
                   <div className="storage">
                     <span>
-                      <i>200</i>{" "}
+                      200{" "}
                     </span>{" "}
                     Mega
                   </div>
@@ -112,7 +112,7 @@ const Plans = () => {
                 <div className="plan-header">
                   <div className="storage">
                     <span>
-                      <i>1</i>{" "}
+                      1{" "}
                     </span>{" "}
                     Giga
                   </div>

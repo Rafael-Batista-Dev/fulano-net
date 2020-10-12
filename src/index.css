@@ -584,7 +584,7 @@ button:focus {
 .netuno-plan .title {
   color: #fff;
   font-size: 26px;
-  background-image: linear-gradient(125deg, #03a9f4, #ff76a4);
+  background-image: linear-gradient(125deg, #0b5e96, #74b6e2);
 }
 .netuno-plan a {
   color: #2980b9;
@@ -602,7 +602,7 @@ button:focus {
 .urano-plan .title {
   color: #fff;
   font-size: 26px;
-  background-image: linear-gradient(125deg, #df6e23, #a8c8f3);
+  background-image: linear-gradient(125deg, #af5416, #d3976f);
 }
 
 .urano-plan a {
@@ -621,7 +621,7 @@ button:focus {
 .saturno-plan .title {
   color: #fff;
   font-size: 26px;
-  background-image: linear-gradient(125deg, #6891b9, #6f8488);
+  background-image: linear-gradient(125deg, #1e3347, #6f8488);
 }
 
 .saturno-plan a {
@@ -644,7 +644,7 @@ button:focus {
 .jupiter-plan .title {
   color: #fff;
   font-size: 26px;
-  background-image: linear-gradient(125deg, #e74c3c, #f39c12);
+  background-image: linear-gradient(125deg, #9b1405, #df796d);
 }
 
 .jupiter-plan a:hover {
